@@ -1,19 +1,21 @@
 <material-button (trigger)="recreate()">
   <glyph icon="refresh"></glyph>
-    Recreate
+    Get new ideas
 </material-button>
 
 <material-list>
   <div group>
-    <material-list-item *ngFor="let name of names"
-                        (trigger)="add(name)">{{ name }}</material-list-item>
+    <material-list-item *ngFor="let item of names"
+                        (trigger)="add(item)">
+      <span class="first">{{ item.first }}</span>{{ item.second }}.com
+    </material-list-item>
 
   </div>
   <div group>
     <div label>Saved names</div>
     <material-list-item *ngFor="let item of savedNames"
                         (trigger)="remove(item)">
-      <span class="first">{{ item.first }}</span><span class="second">{{ item.second }}</span>.com
+      <span class="first">{{ item.first }}</span>{{ item.second }}.com
     </material-list-item>
 
   </div>

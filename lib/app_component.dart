@@ -17,7 +17,7 @@ import 'package:english_words/english_words.dart';
   providers: const [materialProviders],
 )
 class AppComponent {
-  var names = generateCombo().take(5).toList();
+  List<WordPair> names = [];
 
   Set<WordPair> savedNames = new Set<WordPair>();
 
