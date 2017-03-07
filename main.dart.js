@@ -26413,7 +26413,7 @@ if(typeof y!=="number")return y.ib()
 z[x]=C.n.en(y,w<<3)&255}return z}}],["","",,F,{"^":"",
 a4L:[function(){var z,y,x,w,v,u,t,s,r,q
 z=new U.Qe()
-if($.$get$kd()!=null)z.fP("/pwa.g.dart.js")
+if($.$get$kd()!=null)z.fP("pwa.g.dart.js")
 new F.Xx().$0()
 y=[C.hQ,[new Y.b7(C.nT,null,z,null,null,null,null,null)]]
 z=$.ka
