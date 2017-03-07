@@ -13,7 +13,7 @@ import 'package:english_words/english_words.dart';
   directives: const [materialDirectives],
   providers: const [materialProviders],
 )
-class AppComponent {
+class AppComponent implements OnInit {
   var names = <WordPair>[];
 
   final savedNames = new Set<WordPair>();
@@ -32,5 +32,10 @@ class AppComponent {
 
   void remove(WordPair name) {
     savedNames.remove(name);
+  }
+
+  @override
+  ngOnInit() {
+    recreate();
   }
 }
