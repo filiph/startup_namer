@@ -3,19 +3,11 @@
     "1": "",
     "3": [
       {
-        "1": "dart:html",
-        "5": false
-      },
-      {
         "1": "package:angular2/core.dart",
         "5": false
       },
       {
         "1": "package:angular2_components/angular2_components.dart",
-        "5": false
-      },
-      {
-        "1": "hello_dialog/hello_dialog.dart",
         "5": false
       },
       {
@@ -26,12 +18,12 @@
     "5": [
       {
         "1": "AppComponent",
+        "6": [
+          "OnInit"
+        ],
         "7": [
           {
             "2": "materialDirectives"
-          },
-          {
-            "2": "HelloDialog"
           }
         ]
       }
@@ -60,10 +52,12 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": {
         "encapsulation": 0,
-        "template": "<material-button (trigger)=\"recreate()\">\n  <glyph icon=\"refresh\"></glyph>\n    Get new ideas\n</material-button>\n\n<material-list>\n  <div group>\n    <material-list-item *ngFor=\"let item of names\"\n                        (trigger)=\"add(item)\">\n      <span class=\"first\">{{ item.first }}</span>{{ item.second }}.com\n    </material-list-item>\n\n  </div>\n  <div group>\n    <div label>Saved names</div>\n    <material-list-item *ngFor=\"let item of savedNames\"\n                        (trigger)=\"remove(item)\">\n      <span class=\"first\">{{ item.first }}</span>{{ item.second }}.com\n    </material-list-item>\n\n  </div>\n</material-list>\n\n",
+        "template": "<material-button (trigger)=\"recreate()\">\n  <glyph icon=\"refresh\"></glyph>\n    Get new ideas\n</material-button>\n\n<material-list>\n  <div group>\n    <material-list-item *ngFor=\"let item of names\"\n                        (trigger)=\"add(item)\"\n                        [class.added]=\"savedNames.contains(item)\">\n      <span class=\"first\">{{ item.first }}</span>{{ item.second }}.com\n    </material-list-item>\n\n  </div>\n  <div group>\n    <div label>Saved names</div>\n    <material-list-item *ngFor=\"let item of savedNames\"\n                        (trigger)=\"remove(item)\">\n      <span class=\"first\">{{ item.first }}</span>{{ item.second }}.com\n    </material-list-item>\n\n  </div>\n</material-list>\n\n",
         "templateUrl": "asset:io_2017_components_codelab/lib/app_component.html",
         "styles": [],
         "styleUrls": [
