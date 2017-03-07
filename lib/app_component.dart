@@ -14,21 +14,23 @@ import 'package:english_words/english_words.dart';
   providers: const [materialProviders],
 )
 class AppComponent {
-  List<WordPair> names = [];
+  var names = <WordPair>[];
 
-  Set<WordPair> savedNames = new Set<WordPair>();
+  final savedNames = new Set<WordPair>();
 
   void recreate() {
     names = generateCombo().take(5).toList();
   }
 
   void add(WordPair name) {
+    if (savedNames.contains(name)) {
+      remove(name);
+      return;
+    }
     savedNames.add(name);
-    names.remove(name);
   }
 
   void remove(WordPair name) {
     savedNames.remove(name);
-    names.add(name);
   }
 }

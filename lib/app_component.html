@@ -6,7 +6,8 @@
 <material-list>
   <div group>
     <material-list-item *ngFor="let item of names"
-                        (trigger)="add(item)">
+                        (trigger)="add(item)"
+                        [class.added]="savedNames.contains(item)">
       <span class="first">{{ item.first }}</span>{{ item.second }}.com
     </material-list-item>
 

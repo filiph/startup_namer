@@ -10,3 +10,11 @@
 .first {
   color: #2196F3;
 }
+
+.added {
+  color: #ccc;
+}
+
+.added .first {
+  color: #ddd;
+}
