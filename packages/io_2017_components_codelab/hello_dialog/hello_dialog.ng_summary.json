@@ -1,0 +1,92 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_components/angular2_components.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HelloDialog",
+        "7": [
+          {
+            "2": "materialDirectives"
+          }
+        ]
+      }
+    ],
+    "6": "hello_dialog.dart"
+  },
+  "type": {
+    "HelloDialog": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "hello-dialog",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "HelloDialog",
+        "moduleUrl": "asset:io_2017_components_codelab/lib/hello_dialog/hello_dialog.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "name": "name"
+      },
+      "inputTypes": {
+        "name": " String"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<modal #wrappingModal>\n  <material-dialog>\n\n    <h3 header>\n        Hello, {{ name == '' ? 'mysterious stranger' : name }}!\n    </h3>\n\n    <p>\n      Continue your journey on\n      <a href=\"https://webdev.dartlang.org/angular\">webdev.dartlang.org/angular</a>.\n    </p>\n\n    <div footer>\n      <material-button autoFocus\n                       clear-size\n                       (trigger)=\"wrappingModal.close()\">\n        Close\n      </material-button>\n    </div>\n  </material-dialog>\n</modal>",
+        "templateUrl": "asset:io_2017_components_codelab/lib/hello_dialog/hello_dialog.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:io_2017_components_codelab/lib/hello_dialog/hello_dialog.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [
+        {
+          "class": "Identifier",
+          "name": "materialProviders",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": [
+        {
+          "selectors": [
+            {
+              "value": "wrappingModal",
+              "identifier": null,
+              "identifierIsInstance": false
+            }
+          ],
+          "descendants": true,
+          "first": true,
+          "propertyName": "wrappingModal",
+          "read": null
+        }
+      ]
+    }
+  },
+  "alias": {}
+}
