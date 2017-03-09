@@ -1,6 +1,8 @@
 // Copyright (c) 2017, filiph. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
+import 'dart:convert';
+import 'dart:html';
 import 'package:angular2/core.dart';
 import 'package:angular2_components/angular2_components.dart';
 
@@ -28,6 +30,22 @@ class AppComponent implements OnInit {
       return;
     }
     savedNames.add(name);
+  }
+
+  void download() {
+    var data = savedNames
+        .map((name) => "${name.toLowerCase().join()},"
+            "${name.first},"
+            "${name.second}")
+        .join("\n");
+    var dataComponent = Uri.encodeComponent(data);
+    var dataUri = "data:application/octet-stream,$dataComponent";
+    var el = new AnchorElement(href: dataUri);
+    el.attributes['download'] = 'startup_namer.csv';
+    el.style.display = 'none';
+    document.body.append(el);
+    el.click();
+    el.remove();
   }
 
   void remove(WordPair name) {

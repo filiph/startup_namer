@@ -22,3 +22,9 @@
   </div>
 </material-list>
 
+<material-button *ngIf="savedNames.isNotEmpty"
+                 (trigger)="download()">
+  <glyph icon="file_download"></glyph>
+  Download
+</material-button>
+
