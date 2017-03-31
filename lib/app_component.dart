@@ -23,7 +23,7 @@ class AppComponent implements OnInit {
   }
 
   void recreate() {
-    names = generateCombo().take(5).toList();
+    names = generateWordPairs().take(5).toList();
   }
 
   void removeFromSaved(WordPair name) {
