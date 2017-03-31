@@ -3,7 +3,6 @@
 
 import 'package:angular2/core.dart';
 import 'package:angular2_components/angular2_components.dart';
-
 import 'package:english_words/english_words.dart';
 
 @Component(
@@ -18,24 +17,24 @@ class AppComponent implements OnInit {
 
   final savedNames = new Set<WordPair>();
 
+  @override
+  ngOnInit() {
+    recreate();
+  }
+
   void recreate() {
     names = generateCombo().take(5).toList();
   }
 
-  void add(WordPair name) {
-    if (savedNames.contains(name)) {
-      remove(name);
-      return;
-    }
-    savedNames.add(name);
-  }
-
-  void remove(WordPair name) {
+  void removeFromSaved(WordPair name) {
     savedNames.remove(name);
   }
 
-  @override
-  ngOnInit() {
-    recreate();
+  void toggleSavedState(WordPair name) {
+    if (savedNames.contains(name)) {
+      removeFromSaved(name);
+      return;
+    }
+    savedNames.add(name);
   }
 }

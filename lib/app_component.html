@@ -6,7 +6,7 @@
 <material-list>
   <div group>
     <material-list-item *ngFor="let item of names"
-                        (trigger)="add(item)"
+                        (trigger)="toggleSavedState(item)"
                         [class.added]="savedNames.contains(item)">
       <span class="first">{{ item.first }}</span>{{ item.second }}.com
     </material-list-item>
@@ -15,7 +15,7 @@
   <div group>
     <div label>Saved names</div>
     <material-list-item *ngFor="let item of savedNames"
-                        (trigger)="remove(item)">
+                        (trigger)="removeFromSaved(item)">
       <span class="first">{{ item.first }}</span>{{ item.second }}.com
     </material-list-item>
 
