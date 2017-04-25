@@ -14,13 +14,6 @@
     "6": "ng_zone.dart"
   },
   "type": {
-    "ZeroArgFunction": {
-      "class": "Identifier",
-      "name": "ZeroArgFunction",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
-      "prefix": null,
-      "value": null
-    },
     "ErrorHandlingFn": {
       "class": "Identifier",
       "name": "ErrorHandlingFn",
@@ -35,6 +28,13 @@
       "prefix": null,
       "value": null
     },
+    "NgZoneError": {
+      "class": "Identifier",
+      "name": "NgZoneError",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+      "prefix": null,
+      "value": null
+    },
     "WrappedTimer": {
       "class": "Identifier",
       "name": "WrappedTimer",
@@ -42,9 +42,9 @@
       "prefix": null,
       "value": null
     },
-    "NgZoneError": {
+    "ZeroArgFunction": {
       "class": "Identifier",
-      "name": "NgZoneError",
+      "name": "ZeroArgFunction",
       "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
       "prefix": null,
       "value": null

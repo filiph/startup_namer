@@ -89,6 +89,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
+        "2": [
+          "DOCUMENT"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/testing/test_component_builder.dart",
         "2": [
           "TestComponentBuilder"
@@ -102,60 +109,11 @@
           "Log"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
-        "2": [
-          "DOCUMENT"
-        ],
-        "5": false
       }
     ],
     "6": "browser_static.dart"
   },
   "type": {
-    "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS": {
-      "class": "Identifier",
-      "name": "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
-      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
-      "prefix": null,
-      "value": [
-        {
-          "class": "Identifier",
-          "name": "PLATFORM_COMMON_PROVIDERS",
-          "moduleUrl": null,
-          "prefix": null,
-          "value": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "PLATFORM_INITIALIZER",
-              "moduleUrl": null,
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "initBrowserTests",
-            "moduleUrl": null,
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": true,
-          "deps": null
-        }
-      ]
-    },
     "ADDITIONAL_TEST_BROWSER_PROVIDERS": {
       "class": "Identifier",
       "name": "ADDITIONAL_TEST_BROWSER_PROVIDERS",
@@ -179,7 +137,6 @@
           "useExisting": null,
           "useValue": "a",
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -208,7 +165,6 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -237,7 +193,6 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -287,7 +242,6 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -316,7 +270,6 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         }
@@ -360,7 +313,6 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -395,22 +347,62 @@
             "value": null,
             "diDeps": []
           },
-          "useProperty": null,
           "multi": false,
           "deps": []
         }
       ]
     },
-    "initBrowserTests": {
+    "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS": {
       "class": "Identifier",
-      "name": "initBrowserTests",
+      "name": "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
-      "value": null
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "PLATFORM_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "PLATFORM_INITIALIZER",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": {
+            "class": "Identifier",
+            "name": "initBrowserTests",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "useFactory": null,
+          "multi": true,
+          "deps": null
+        }
+      ]
     },
     "createDoc": {
       "class": "Identifier",
       "name": "createDoc",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
+      "prefix": null,
+      "value": null
+    },
+    "initBrowserTests": {
+      "class": "Identifier",
+      "name": "initBrowserTests",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
       "value": null

@@ -34,9 +34,9 @@
     ]
   },
   "type": {
-    "LogFunction": {
+    "BrowserDetection": {
       "class": "Identifier",
-      "name": "LogFunction",
+      "name": "BrowserDetection",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
       "value": null
@@ -50,16 +50,9 @@
       "value": null,
       "diDeps": []
     },
-    "BrowserDetection": {
+    "LogFunction": {
       "class": "Identifier",
-      "name": "BrowserDetection",
-      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
-      "prefix": null,
-      "value": null
-    },
-    "dispatchEvent": {
-      "class": "Identifier",
-      "name": "dispatchEvent",
+      "name": "LogFunction",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
       "value": null
@@ -67,6 +60,13 @@
     "containsRegexp": {
       "class": "Identifier",
       "name": "containsRegexp",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "dispatchEvent": {
+      "class": "Identifier",
+      "name": "dispatchEvent",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
       "value": null

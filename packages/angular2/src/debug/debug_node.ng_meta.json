@@ -33,7 +33,7 @@
     ],
     "4": [
       {
-        "1": "package:angular2/src/debug/by.dart"
+        "1": "by.dart"
       }
     ],
     "6": "debug_node.dart",
@@ -55,15 +55,22 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/debug/by.template.dart",
+        "1": "by.template.dart",
         "4": "i4"
       }
     ]
   },
   "type": {
-    "Predicate": {
+    "By": {
       "class": "Identifier",
-      "name": "Predicate",
+      "name": "By",
+      "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DebugElement": {
+      "class": "Identifier",
+      "name": "DebugElement",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
       "prefix": null,
       "value": null
@@ -82,16 +89,9 @@
       "prefix": null,
       "value": null
     },
-    "DebugElement": {
+    "Predicate": {
       "class": "Identifier",
-      "name": "DebugElement",
-      "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
-      "prefix": null,
-      "value": null
-    },
-    "asNativeElements": {
-      "class": "Identifier",
-      "name": "asNativeElements",
+      "name": "Predicate",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
       "prefix": null,
       "value": null
@@ -110,9 +110,9 @@
       "prefix": null,
       "value": null
     },
-    "getDebugNode": {
+    "asNativeElements": {
       "class": "Identifier",
-      "name": "getDebugNode",
+      "name": "asNativeElements",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
       "prefix": null,
       "value": null
@@ -124,16 +124,16 @@
       "prefix": null,
       "value": null
     },
-    "indexDebugNode": {
+    "getDebugNode": {
       "class": "Identifier",
-      "name": "indexDebugNode",
+      "name": "getDebugNode",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
       "prefix": null,
       "value": null
     },
-    "removeDebugNodeFromIndex": {
+    "indexDebugNode": {
       "class": "Identifier",
-      "name": "removeDebugNodeFromIndex",
+      "name": "indexDebugNode",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
       "prefix": null,
       "value": null
@@ -145,10 +145,10 @@
       "prefix": null,
       "value": null
     },
-    "By": {
+    "removeDebugNodeFromIndex": {
       "class": "Identifier",
-      "name": "By",
-      "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
+      "name": "removeDebugNodeFromIndex",
+      "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
       "prefix": null,
       "value": null
     }

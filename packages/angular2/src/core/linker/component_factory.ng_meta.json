@@ -86,9 +86,9 @@
     ]
   },
   "type": {
-    "NgViewFactory": {
+    "ComponentFactory": {
       "class": "Identifier",
-      "name": "NgViewFactory",
+      "name": "ComponentFactory",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
       "prefix": null,
       "value": null
@@ -100,9 +100,9 @@
       "prefix": null,
       "value": null
     },
-    "ComponentFactory": {
+    "NgViewFactory": {
       "class": "Identifier",
-      "name": "ComponentFactory",
+      "name": "NgViewFactory",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
       "prefix": null,
       "value": null

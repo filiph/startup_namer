@@ -7,17 +7,17 @@
         "5": false
       },
       {
-        "1": "package:angular2/platform/testing/browser_static.dart",
+        "1": "package:angular2/platform/browser_static.dart",
         "2": [
-          "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
-          "ADDITIONAL_TEST_BROWSER_PROVIDERS"
+          "BROWSER_APP_PROVIDERS"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/platform/browser_static.dart",
+        "1": "package:angular2/platform/testing/browser_static.dart",
         "2": [
-          "BROWSER_APP_PROVIDERS"
+          "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
+          "ADDITIONAL_TEST_BROWSER_PROVIDERS"
         ],
         "5": false
       },
@@ -50,21 +50,6 @@
     "6": "browser.dart"
   },
   "type": {
-    "TEST_BROWSER_PLATFORM_PROVIDERS": {
-      "class": "Identifier",
-      "name": "TEST_BROWSER_PLATFORM_PROVIDERS",
-      "moduleUrl": "asset:angular2/lib/platform/testing/browser.dart",
-      "prefix": null,
-      "value": [
-        {
-          "class": "Identifier",
-          "name": "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
-          "moduleUrl": null,
-          "prefix": null,
-          "value": null
-        }
-      ]
-    },
     "TEST_BROWSER_APPLICATION_PROVIDERS": {
       "class": "Identifier",
       "name": "TEST_BROWSER_APPLICATION_PROVIDERS",
@@ -112,13 +97,27 @@
           },
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         },
         {
           "class": "Identifier",
           "name": "ADDITIONAL_TEST_BROWSER_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    },
+    "TEST_BROWSER_PLATFORM_PROVIDERS": {
+      "class": "Identifier",
+      "name": "TEST_BROWSER_PLATFORM_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
           "moduleUrl": null,
           "prefix": null,
           "value": null

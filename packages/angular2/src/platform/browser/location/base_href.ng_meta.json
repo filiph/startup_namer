@@ -1,13 +1,6 @@
 {
   "ngDeps": null,
   "type": {
-    "baseHrefFromDOM": {
-      "class": "Identifier",
-      "name": "baseHrefFromDOM",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/location/base_href.dart",
-      "prefix": null,
-      "value": null
-    },
     "_getBaseElementHref": {
       "class": "Identifier",
       "name": "_getBaseElementHref",
@@ -18,6 +11,13 @@
     "_relativePath": {
       "class": "Identifier",
       "name": "_relativePath",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/location/base_href.dart",
+      "prefix": null,
+      "value": null
+    },
+    "baseHrefFromDOM": {
+      "class": "Identifier",
+      "name": "baseHrefFromDOM",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/location/base_href.dart",
       "prefix": null,
       "value": null

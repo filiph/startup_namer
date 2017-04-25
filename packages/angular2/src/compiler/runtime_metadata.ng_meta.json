@@ -70,13 +70,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "stringify"
-        ],
-        "5": false
-      },
-      {
         "1": "compile_metadata.dart",
         "4": "cpl",
         "5": false
@@ -199,32 +192,28 @@
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "compile_metadata.template.dart",
         "4": "i9"
       },
       {
-        "1": "compile_metadata.template.dart",
+        "1": "compiler_utils.template.dart",
         "4": "i10"
       },
       {
-        "1": "compiler_utils.template.dart",
+        "1": "directive_lifecycle_reflector.template.dart",
         "4": "i11"
       },
       {
-        "1": "directive_lifecycle_reflector.template.dart",
+        "1": "directive_resolver.template.dart",
         "4": "i12"
       },
       {
-        "1": "directive_resolver.template.dart",
+        "1": "pipe_resolver.template.dart",
         "4": "i13"
       },
       {
-        "1": "pipe_resolver.template.dart",
-        "4": "i14"
-      },
-      {
         "1": "view_resolver.template.dart",
-        "4": "i15"
+        "4": "i14"
       }
     ]
   },
@@ -339,6 +328,20 @@
         }
       ]
     },
+    "calcModuleUrl": {
+      "class": "Identifier",
+      "name": "calcModuleUrl",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "value": null
+    },
+    "flattenArray": {
+      "class": "Identifier",
+      "name": "flattenArray",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "value": null
+    },
     "flattenDirectives": {
       "class": "Identifier",
       "name": "flattenDirectives",
@@ -353,23 +356,9 @@
       "prefix": null,
       "value": null
     },
-    "flattenArray": {
-      "class": "Identifier",
-      "name": "flattenArray",
-      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
-      "prefix": null,
-      "value": null
-    },
     "isValidType": {
       "class": "Identifier",
       "name": "isValidType",
-      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
-      "prefix": null,
-      "value": null
-    },
-    "calcModuleUrl": {
-      "class": "Identifier",
-      "name": "calcModuleUrl",
       "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
       "prefix": null,
       "value": null

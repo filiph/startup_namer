@@ -20,7 +20,7 @@
           "getPlatform",
           "createPlatform",
           "PLATFORM_INITIALIZER",
-          "MapInjector"
+          "Injector"
         ],
         "5": false
       },
@@ -28,6 +28,13 @@
         "1": "package:angular2/src/core/application_ref.dart",
         "2": [
           "PlatformRefImpl"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Provider"
         ],
         "5": false
       },
@@ -51,13 +58,6 @@
         "2": [
           "BROWSER_APP_COMMON_PROVIDERS",
           "createInitDomAdapter"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Provider"
         ],
         "5": false
       },
@@ -122,15 +122,14 @@
             "value": null,
             "diDeps": []
           },
-          "useProperty": null,
           "multi": false,
           "deps": []
         }
       ]
     },
-    "createDoc": {
+    "bootstrapStatic": {
       "class": "Identifier",
-      "name": "createDoc",
+      "name": "bootstrapStatic",
       "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
       "prefix": null,
       "value": null
@@ -142,9 +141,9 @@
       "prefix": null,
       "value": null
     },
-    "bootstrapStatic": {
+    "createDoc": {
       "class": "Identifier",
-      "name": "bootstrapStatic",
+      "name": "createDoc",
       "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
       "prefix": null,
       "value": null

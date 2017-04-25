@@ -17,8 +17,6 @@
       {
         "1": "package:angular2/src/platform/dom/events/event_manager.dart",
         "2": [
-          "EVENT_MANAGER_PLUGINS",
-          "EventManager",
           "EventManagerPlugin"
         ]
       }

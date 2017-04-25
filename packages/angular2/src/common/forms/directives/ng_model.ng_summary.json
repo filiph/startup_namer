@@ -9,7 +9,13 @@
           "OnInit",
           "SimpleChange",
           "Directive",
-          "Provider",
+          "Provider"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/di.dart",
+        "2": [
           "Inject",
           "Optional",
           "Self"
@@ -33,8 +39,7 @@
       {
         "1": "../validators.dart",
         "2": [
-          "NG_VALIDATORS",
-          "NG_ASYNC_VALIDATORS"
+          "NG_VALIDATORS"
         ],
         "5": false
       },
@@ -59,16 +64,14 @@
           "setUpControl",
           "isPropertyUpdated",
           "selectValueAccessor",
-          "composeValidators",
-          "composeAsyncValidators"
+          "composeValidators"
         ],
         "5": false
       },
       {
         "1": "validators.dart",
         "2": [
-          "ValidatorFn",
-          "AsyncValidatorFn"
+          "ValidatorFn"
         ],
         "5": false
       }
@@ -86,16 +89,6 @@
               "const Inject(NG_VALIDATORS)"
             ],
             "4": "_validators"
-          },
-          {
-            "1": "List",
-            "2": "<dynamic>",
-            "3": [
-              "const Optional()",
-              "const Self()",
-              "const Inject(NG_ASYNC_VALIDATORS)"
-            ],
-            "4": "_asyncValidators"
           },
           {
             "1": "List",
@@ -117,43 +110,6 @@
     "6": "ng_model.dart"
   },
   "type": {
-    "formControlBinding": {
-      "class": "Identifier",
-      "name": "formControlBinding",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_model.dart",
-      "prefix": null,
-      "value": {
-        "class": "Provider",
-        "token": {
-          "value": null,
-          "identifier": {
-            "class": "Identifier",
-            "name": "NgControl",
-            "moduleUrl": null,
-            "prefix": null,
-            "value": null
-          },
-          "identifierIsInstance": false
-        },
-        "useClass": null,
-        "useExisting": {
-          "value": null,
-          "identifier": {
-            "class": "Identifier",
-            "name": "NgModel",
-            "moduleUrl": null,
-            "prefix": null,
-            "value": null
-          },
-          "identifierIsInstance": false
-        },
-        "useValue": null,
-        "useFactory": null,
-        "useProperty": null,
-        "multi": false,
-        "deps": null
-      }
-    },
     "NgModel": {
       "class": "Directive",
       "isComponent": false,
@@ -173,26 +129,6 @@
               "identifier": {
                 "class": "Identifier",
                 "name": "NG_VALIDATORS",
-                "moduleUrl": null,
-                "prefix": null,
-                "value": null
-              },
-              "identifierIsInstance": false
-            },
-            "value": null,
-            "isAttribute": false,
-            "isSelf": true,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": true,
-            "isValue": false
-          },
-          {
-            "token": {
-              "value": null,
-              "identifier": {
-                "class": "Identifier",
-                "name": "NG_ASYNC_VALIDATORS",
                 "moduleUrl": null,
                 "prefix": null,
                 "value": null
@@ -257,6 +193,42 @@
       "viewProviders": [],
       "queries": [],
       "viewQueries": []
+    },
+    "formControlBinding": {
+      "class": "Identifier",
+      "name": "formControlBinding",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_model.dart",
+      "prefix": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "value": null,
+          "identifier": {
+            "class": "Identifier",
+            "name": "NgControl",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "identifierIsInstance": false
+        },
+        "useClass": null,
+        "useExisting": {
+          "value": null,
+          "identifier": {
+            "class": "Identifier",
+            "name": "NgModel",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "identifierIsInstance": false
+        },
+        "useValue": null,
+        "useFactory": null,
+        "multi": false,
+        "deps": null
+      }
     }
   },
   "alias": {}

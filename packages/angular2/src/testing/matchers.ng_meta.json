@@ -14,13 +14,6 @@
     "6": "matchers.dart"
   },
   "type": {
-    "hasTextContent": {
-      "class": "Identifier",
-      "name": "hasTextContent",
-      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
-      "prefix": null,
-      "value": null
-    },
     "_HasTextContent": {
       "class": "Identifier",
       "name": "_HasTextContent",
@@ -31,6 +24,13 @@
     "_elementText": {
       "class": "Identifier",
       "name": "_elementText",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "value": null
+    },
+    "hasTextContent": {
+      "class": "Identifier",
+      "name": "hasTextContent",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
       "value": null

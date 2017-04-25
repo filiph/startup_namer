@@ -8,16 +8,16 @@
       "prefix": null,
       "value": null
     },
-    "sanitizeHtmlInternal": {
+    "mXSSProtection": {
       "class": "Identifier",
-      "name": "sanitizeHtmlInternal",
+      "name": "mXSSProtection",
       "moduleUrl": "asset:angular2/lib/src/security/html_sanitizer.dart",
       "prefix": null,
       "value": null
     },
-    "mXSSProtection": {
+    "sanitizeHtmlInternal": {
       "class": "Identifier",
-      "name": "mXSSProtection",
+      "name": "sanitizeHtmlInternal",
       "moduleUrl": "asset:angular2/lib/src/security/html_sanitizer.dart",
       "prefix": null,
       "value": null

@@ -54,14 +54,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/injector_factory.dart",
-        "2": [
-          "CodegenInjector",
-          "CodegenInjectorFactory"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/view_type.dart",
         "2": [
           "ViewType"
@@ -124,32 +116,28 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/injector_factory.template.dart",
+        "1": "package:angular2/src/core/linker/view_type.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/view_type.template.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "package:angular2/src/core/security.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/security.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
-        "4": "i9"
-      },
-      {
         "1": "compile_metadata.template.dart",
-        "4": "i10"
+        "4": "i9"
       }
     ]
   },

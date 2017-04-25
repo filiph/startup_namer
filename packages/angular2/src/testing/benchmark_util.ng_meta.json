@@ -7,14 +7,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/browser.dart",
-        "2": [
-          "document",
-          "window"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
@@ -25,16 +17,19 @@
     "6": "benchmark_util.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/browser.template.dart",
-        "4": "i0"
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.template.dart",
-        "4": "i1"
+        "4": "i0"
       }
     ]
   },
   "type": {
+    "bindAction": {
+      "class": "Identifier",
+      "name": "bindAction",
+      "moduleUrl": "asset:angular2/lib/src/testing/benchmark_util.dart",
+      "prefix": null,
+      "value": null
+    },
     "getIntParameter": {
       "class": "Identifier",
       "name": "getIntParameter",
@@ -45,13 +40,6 @@
     "getStringParameter": {
       "class": "Identifier",
       "name": "getStringParameter",
-      "moduleUrl": "asset:angular2/lib/src/testing/benchmark_util.dart",
-      "prefix": null,
-      "value": null
-    },
-    "bindAction": {
-      "class": "Identifier",
-      "name": "bindAction",
       "moduleUrl": "asset:angular2/lib/src/testing/benchmark_util.dart",
       "prefix": null,
       "value": null

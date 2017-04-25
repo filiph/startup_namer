@@ -20,20 +20,6 @@
     ]
   },
   "type": {
-    "_VALUES": {
-      "class": "Identifier",
-      "name": "_VALUES",
-      "moduleUrl": "asset:angular2/lib/src/security/style_sanitizer.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_TRANSFORMATION_FNS": {
-      "class": "Identifier",
-      "name": "_TRANSFORMATION_FNS",
-      "moduleUrl": "asset:angular2/lib/src/security/style_sanitizer.dart",
-      "prefix": null,
-      "value": null
-    },
     "_COLOR_FNS": {
       "class": "Identifier",
       "name": "_COLOR_FNS",
@@ -51,6 +37,20 @@
     "_KEY": {
       "class": "Identifier",
       "name": "_KEY",
+      "moduleUrl": "asset:angular2/lib/src/security/style_sanitizer.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_TRANSFORMATION_FNS": {
+      "class": "Identifier",
+      "name": "_TRANSFORMATION_FNS",
+      "moduleUrl": "asset:angular2/lib/src/security/style_sanitizer.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_VALUES": {
+      "class": "Identifier",
+      "name": "_VALUES",
       "moduleUrl": "asset:angular2/lib/src/security/style_sanitizer.dart",
       "prefix": null,
       "value": null

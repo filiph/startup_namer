@@ -100,52 +100,6 @@
     "6": "browser.dart"
   },
   "type": {
-    "RUNTIME_COMPILER_PROVIDERS": {
-      "class": "Identifier",
-      "name": "RUNTIME_COMPILER_PROVIDERS",
-      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
-      "prefix": null,
-      "value": [
-        {
-          "class": "Identifier",
-          "name": "RuntimeCompiler",
-          "moduleUrl": null,
-          "prefix": null,
-          "value": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "ComponentResolver",
-              "moduleUrl": null,
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "RuntimeCompiler",
-              "moduleUrl": null,
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useValue": null,
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        }
-      ]
-    },
     "BROWSER_APP_PROVIDERS": {
       "class": "Identifier",
       "name": "BROWSER_APP_PROVIDERS",
@@ -183,7 +137,6 @@
             "value": null,
             "diDeps": []
           },
-          "useProperty": null,
           "multi": false,
           "deps": []
         },
@@ -226,15 +179,59 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "useProperty": null,
           "multi": false,
           "deps": null
         }
       ]
     },
-    "defaultDocumentProvider": {
+    "RUNTIME_COMPILER_PROVIDERS": {
       "class": "Identifier",
-      "name": "defaultDocumentProvider",
+      "name": "RUNTIME_COMPILER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "RuntimeCompiler",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ComponentResolver",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "RuntimeCompiler",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useValue": null,
+          "useFactory": null,
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "bootstrap": {
+      "class": "Identifier",
+      "name": "bootstrap",
       "moduleUrl": "asset:angular2/lib/platform/browser.dart",
       "prefix": null,
       "value": null
@@ -246,9 +243,9 @@
       "prefix": null,
       "value": null
     },
-    "bootstrap": {
+    "defaultDocumentProvider": {
       "class": "Identifier",
-      "name": "bootstrap",
+      "name": "defaultDocumentProvider",
       "moduleUrl": "asset:angular2/lib/platform/browser.dart",
       "prefix": null,
       "value": null

@@ -54,14 +54,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/injector_factory.dart",
-        "2": [
-          "CodegenInjector",
-          "CodegenInjectorFactory"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/view_type.dart",
         "2": [
           "ViewType"

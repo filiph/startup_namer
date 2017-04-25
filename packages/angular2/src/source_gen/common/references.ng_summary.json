@@ -11,6 +11,10 @@
         "5": false
       },
       {
+        "1": "package:analyzer/src/dart/resolver/scope.dart",
+        "5": false
+      },
+      {
         "1": "package:code_builder/code_builder.dart",
         "5": false
       }
@@ -18,9 +22,9 @@
     "6": "references.dart"
   },
   "type": {
-    "toBuilder": {
+    "_coerceTypeArgs": {
       "class": "Identifier",
-      "name": "toBuilder",
+      "name": "_coerceTypeArgs",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/references.dart",
       "prefix": null,
       "value": null
@@ -32,9 +36,9 @@
       "prefix": null,
       "value": null
     },
-    "_coerceTypeArgs": {
+    "toBuilder": {
       "class": "Identifier",
-      "name": "_coerceTypeArgs",
+      "name": "toBuilder",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/references.dart",
       "prefix": null,
       "value": null

@@ -120,11 +120,11 @@
       "NgClass",
       "NgFor",
       "NgIf",
-      "NgTemplateOutlet",
       "NgStyle",
       "NgSwitch",
+      "NgSwitchDefault",
       "NgSwitchWhen",
-      "NgSwitchDefault"
+      "NgTemplateOutlet"
     ]
   }
 }

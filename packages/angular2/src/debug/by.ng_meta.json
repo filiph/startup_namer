@@ -7,14 +7,14 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/debug/debug_node.dart",
+        "1": "debug_node.dart",
         "5": false
       }
     ],
     "6": "by.dart",
     "7": [
       {
-        "1": "package:angular2/src/debug/debug_node.template.dart",
+        "1": "debug_node.template.dart",
         "4": "i0"
       }
     ]

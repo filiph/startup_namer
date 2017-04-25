@@ -18,16 +18,16 @@
     "6": "namespace_model.dart"
   },
   "type": {
-    "ImportModel": {
+    "ExportModel": {
       "class": "Identifier",
-      "name": "ImportModel",
+      "name": "ExportModel",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/namespace_model.dart",
       "prefix": null,
       "value": null
     },
-    "ExportModel": {
+    "ImportModel": {
       "class": "Identifier",
-      "name": "ExportModel",
+      "name": "ImportModel",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/namespace_model.dart",
       "prefix": null,
       "value": null
@@ -39,16 +39,16 @@
       "prefix": null,
       "value": null
     },
-    "_showCombinators": {
+    "_hideCombinators": {
       "class": "Identifier",
-      "name": "_showCombinators",
+      "name": "_hideCombinators",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/namespace_model.dart",
       "prefix": null,
       "value": null
     },
-    "_hideCombinators": {
+    "_showCombinators": {
       "class": "Identifier",
-      "name": "_hideCombinators",
+      "name": "_showCombinators",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/namespace_model.dart",
       "prefix": null,
       "value": null

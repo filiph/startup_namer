@@ -3,19 +3,11 @@
     "1": "",
     "3": [
       {
-        "1": "package:angular2/di.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/platform/browser_static.dart",
         "5": false
       },
       {
-        "1": "package:io_2017_components_codelab/app_component.dart",
-        "5": false
-      },
-      {
-        "1": "package:pwa/client.dart",
+        "1": "package:startup_namer/app_component.dart",
         "5": false
       }
     ],
@@ -25,7 +17,7 @@
     "main": {
       "class": "Identifier",
       "name": "main",
-      "moduleUrl": "asset:io_2017_components_codelab/web/main.dart",
+      "moduleUrl": "asset:startup_namer/web/main.dart",
       "prefix": null,
       "value": null
     }
