@@ -1,4 +1,4 @@
-<material-button (trigger)="recreate()">
+<material-button (trigger)="generateNames()">
   <glyph icon="lightbulb_outline"></glyph>
     Get new ideas
 </material-button>
@@ -7,10 +7,9 @@
   <div group>
     <material-list-item *ngFor="let item of names"
                         (trigger)="toggleSavedState(item)"
-                        [class.added]="savedNames.contains(item)">
+                        [class.is-saved]="savedNames.contains(item)">
       <span class="first">{{item.first}}</span>{{item.second}}.com
     </material-list-item>
-
   </div>
   <div group>
     <div label>Saved names</div>
@@ -18,7 +17,5 @@
                         (trigger)="removeFromSaved(item)">
       <span class="first">{{item.first}}</span>{{item.second}}.com
     </material-list-item>
-
   </div>
 </material-list>
-
