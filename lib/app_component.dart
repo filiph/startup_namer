@@ -2,7 +2,7 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
 import 'package:angular2/core.dart';
-import 'package:angular2_components/angular2_components.dart';
+import 'package:angular_components/angular_components.dart';
 import 'package:english_words/english_words.dart';
 
 @Component(
@@ -14,16 +14,19 @@ import 'package:english_words/english_words.dart';
 )
 class AppComponent implements OnInit {
   var names = <WordPair>[];
-
   final savedNames = new Set<WordPair>();
 
   @override
-  ngOnInit() {
-    recreate();
+  void ngOnInit() {
+    generateNames();
   }
 
-  void recreate() {
+  void generateNames() {
     names = generateWordPairs().take(5).toList();
+  }
+
+  void addToSaved(WordPair name) {
+    savedNames.add(name);
   }
 
   void removeFromSaved(WordPair name) {
@@ -35,6 +38,6 @@ class AppComponent implements OnInit {
       removeFromSaved(name);
       return;
     }
-    savedNames.add(name);
+    addToSaved(name);
   }
 }
