@@ -3,7 +3,7 @@
 
 import 'package:angular2/platform/browser.dart';
 
-import 'package:io_2017_components_codelab/app_component.dart';
+import 'package:startup_namer/app_component.dart';
 
 void main() {
   bootstrap(AppComponent);
