@@ -11,23 +11,11 @@
         "5": false
       },
       {
-        "1": "../focus/keyboard_only_focus_indicator.dart",
-        "5": false
-      },
-      {
-        "1": "../glyph/glyph.dart",
-        "5": false
-      },
-      {
-        "1": "../material_ripple/material_ripple.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
         "1": "../../utils/angular/properties/properties.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
         "5": false
       },
       {
@@ -47,7 +35,15 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../focus/keyboard_only_focus_indicator.dart",
+        "5": false
+      },
+      {
+        "1": "../glyph/glyph.dart",
+        "5": false
+      },
+      {
+        "1": "../material_ripple/material_ripple.dart",
         "5": false
       }
     ],

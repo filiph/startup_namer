@@ -15,30 +15,30 @@
         "5": false
       },
       {
+        "1": "../../../utils/angular/properties/properties.dart",
+        "5": false
+      },
+      {
         "1": "../../enums/alignment.dart",
         "5": false
       },
       {
         "1": "./popup_source.dart",
         "5": false
-      },
-      {
-        "1": "../../../utils/angular/properties/properties.dart",
-        "5": false
       }
     ],
     "6": "popup_state.dart",
     "7": [
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "../../../utils/angular/properties/properties.template.dart",
         "4": "i0"
       },
       {
-        "1": "./popup_source.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../utils/angular/properties/properties.template.dart",
+        "1": "./popup_source.template.dart",
         "4": "i2"
       }
     ]

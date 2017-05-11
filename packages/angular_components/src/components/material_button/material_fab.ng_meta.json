@@ -3,11 +3,11 @@
     "1": "",
     "3": [
       {
-        "1": "../material_ripple/material_ripple.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../material_ripple/material_ripple.dart",
         "5": false
       },
       {
@@ -38,11 +38,11 @@
     "6": "material_fab.dart",
     "7": [
       {
-        "1": "../material_ripple/material_ripple.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../material_ripple/material_ripple.template.dart",
         "4": "i1"
       },
       {

@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "./focus.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/angular/managed_zone/angular_2.dart",
         "5": false
       },
@@ -20,6 +16,10 @@
       },
       {
         "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "./focus.dart",
         "5": false
       }
     ],
@@ -51,19 +51,19 @@
         "4": "i0"
       },
       {
-        "1": "./focus.template.dart",
+        "1": "../../utils/angular/managed_zone/angular_2.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/angular/managed_zone/angular_2.template.dart",
+        "1": "../../utils/angular/properties/properties.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/angular/properties/properties.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../utils/disposer/disposer.template.dart",
+        "1": "./focus.template.dart",
         "4": "i4"
       }
     ]

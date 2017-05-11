@@ -11,19 +11,15 @@
         "5": false
       },
       {
+        "1": "../../utils/id_generator/id_generator.dart",
+        "5": false
+      },
+      {
         "1": "../content/deferred_content_aware.dart",
         "5": false
       },
       {
         "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/id_generator/id_generator.dart",
         "5": false
       }
     ],
@@ -61,20 +57,16 @@
         "4": "i0"
       },
       {
-        "1": "../content/deferred_content_aware.template.dart",
+        "1": "../../utils/id_generator/id_generator.template.dart",
         "4": "i1"
       },
       {
-        "1": "../focus/focus.template.dart",
+        "1": "../content/deferred_content_aware.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../focus/focus.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "../../utils/id_generator/id_generator.template.dart",
-        "4": "i4"
       }
     ]
   },

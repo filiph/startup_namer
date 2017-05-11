@@ -19,10 +19,6 @@
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/browser/events/events.dart",
         "5": false
       }
@@ -48,12 +44,8 @@
         "4": "i1"
       },
       {
-        "1": "../../utils/async/async.template.dart",
-        "4": "i2"
-      },
-      {
         "1": "../../utils/browser/events/events.template.dart",
-        "4": "i3"
+        "4": "i2"
       }
     ]
   },

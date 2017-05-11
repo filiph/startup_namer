@@ -7,7 +7,7 @@
         "5": false
       },
       {
-        "1": "../focus/focus_trap.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -27,7 +27,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../focus/focus_trap.dart",
         "5": false
       }
     ],
@@ -68,7 +68,7 @@
     "6": "material_dialog.dart",
     "7": [
       {
-        "1": "../focus/focus_trap.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
@@ -88,7 +88,7 @@
         "4": "i4"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../focus/focus_trap.template.dart",
         "4": "i5"
       }
     ]

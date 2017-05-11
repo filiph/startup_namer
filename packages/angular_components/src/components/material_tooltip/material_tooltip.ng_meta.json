@@ -540,7 +540,6 @@
       "changeDetection": 4,
       "inputs": {
         "positions": "positions",
-        "twoLine": "twoLine",
         "text": "text",
         "tooltipRef": "for"
       },
@@ -556,7 +555,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "        <material-popup *ngIf=\"popupSource != null\"\n                        ink\n                        autoDismiss=\"false\"\n                        enforceSpaceConstraints\n                        matchSourceWidth=\"false\"\n                        matchMinSourceWidth=\"false\"\n                        shadowCssClass=\"aacmtit-ink-tooltip-shadow\"\n                        trackLayoutChanges\n                        [preferredPositions]=\"positions\"\n                        [source]=\"popupSource\"\n                        [visible]=\"showPopup\">\n          <div *deferredContent\n               [class.two-line]=\"twoLine\"\n               class=\"ink-container\">\n            <span>{{text}}<ng-content></ng-content></span>\n          </div>\n        </material-popup>",
+        "template": "        <material-popup *ngIf=\"popupSource != null\"\n                        ink\n                        autoDismiss=\"false\"\n                        enforceSpaceConstraints\n                        matchSourceWidth=\"false\"\n                        matchMinSourceWidth=\"false\"\n                        shadowCssClass=\"aacmtit-ink-tooltip-shadow\"\n                        trackLayoutChanges\n                        [preferredPositions]=\"positions\"\n                        [source]=\"popupSource\"\n                        [visible]=\"showPopup\">\n          <div *deferredContent class=\"ink-container\">\n            {{text}}<ng-content></ng-content>\n          </div>\n        </material-popup>",
         "templateUrl": "asset:angular_components/lib/src/components/material_tooltip/src/ink_tooltip.dart",
         "styles": [],
         "styleUrls": [
@@ -1348,14 +1347,13 @@
       },
       "changeDetection": 6,
       "inputs": {
-        "twoLineTooltip": "twoLineTooltip",
         "text": "materialTooltip",
-        "show": "showTooltipIf",
+        "canShow": "showTooltipIf",
         "positions": "tooltipPositions"
       },
       "inputTypes": {
         "text": " String",
-        "show": " bool",
+        "canShow": " bool",
         "positions": " List"
       },
       "outputs": {},
@@ -1667,9 +1665,9 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "keyup": "openTooltipWithDelay()",
-        "click": "closeTooltip()",
-        "blur": "closeTooltip()",
+        "keyup": "showTooltipWithDelay()",
+        "click": "hideTooltip()",
+        "blur": "hideTooltip()",
         "mouseover": "onMouseOver()",
         "mouseleave": "onMouseLeave()"
       },
@@ -1765,16 +1763,9 @@
       "prefix": null,
       "value": null
     },
-    "tooltipCloseDelay": {
+    "tooltipShowDelay": {
       "class": "Identifier",
-      "name": "tooltipCloseDelay",
-      "moduleUrl": "asset:angular_components/lib/src/components/material_tooltip/src/tooltip_source.dart",
-      "prefix": null,
-      "value": null
-    },
-    "tooltipDelay": {
-      "class": "Identifier",
-      "name": "tooltipDelay",
+      "name": "tooltipShowDelay",
       "moduleUrl": "asset:angular_components/lib/src/components/material_tooltip/src/tooltip_source.dart",
       "prefix": null,
       "value": null

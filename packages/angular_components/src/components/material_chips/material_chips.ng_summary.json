@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "./material_chip.dart",
-        "5": false
-      },
-      {
         "1": "../../model/selection/selection_model.dart",
         "5": false
       },
@@ -20,6 +16,10 @@
       },
       {
         "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "./material_chip.dart",
         "5": false
       }
     ],

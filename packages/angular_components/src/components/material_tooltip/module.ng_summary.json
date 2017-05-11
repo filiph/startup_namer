@@ -7,11 +7,11 @@
         "5": false
       },
       {
-        "1": "src/tooltip_controller.dart",
+        "1": "../../utils/disposer/disposer.dart",
         "5": false
       },
       {
-        "1": "../../utils/disposer/disposer.dart",
+        "1": "src/tooltip_controller.dart",
         "5": false
       }
     ],

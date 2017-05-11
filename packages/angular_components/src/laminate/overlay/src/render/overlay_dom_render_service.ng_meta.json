@@ -11,10 +11,6 @@
         "5": false
       },
       {
-        "1": "../../../enums/visibility.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/angular2.dart",
         "5": false
       },
@@ -23,11 +19,15 @@
         "5": false
       },
       {
-        "1": "../overlay_state.dart",
+        "1": "../../../../utils/angular/imperative_view/imperative_view.dart",
         "5": false
       },
       {
-        "1": "./overlay_style_config.dart",
+        "1": "../../../../utils/browser/dom_service/dom_service.dart",
+        "5": false
+      },
+      {
+        "1": "../../../enums/visibility.dart",
         "5": false
       },
       {
@@ -39,11 +39,11 @@
         "5": false
       },
       {
-        "1": "../../../../utils/angular/imperative_view/imperative_view.dart",
+        "1": "../overlay_state.dart",
         "5": false
       },
       {
-        "1": "../../../../utils/browser/dom_service/dom_service.dart",
+        "1": "./overlay_style_config.dart",
         "5": false
       }
     ],
@@ -104,23 +104,23 @@
     "6": "overlay_dom_render_service.dart",
     "7": [
       {
-        "1": "../../../enums/visibility.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../../../../css/acux/zindexer.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../../css/acux/zindexer.template.dart",
+        "1": "../../../../utils/angular/imperative_view/imperative_view.template.dart",
         "4": "i2"
       },
       {
-        "1": "../overlay_state.template.dart",
+        "1": "../../../../utils/browser/dom_service/dom_service.template.dart",
         "4": "i3"
       },
       {
-        "1": "./overlay_style_config.template.dart",
+        "1": "../../../enums/visibility.template.dart",
         "4": "i4"
       },
       {
@@ -132,11 +132,11 @@
         "4": "i6"
       },
       {
-        "1": "../../../../utils/angular/imperative_view/imperative_view.template.dart",
+        "1": "../overlay_state.template.dart",
         "4": "i7"
       },
       {
-        "1": "../../../../utils/browser/dom_service/dom_service.template.dart",
+        "1": "./overlay_style_config.template.dart",
         "4": "i8"
       }
     ]

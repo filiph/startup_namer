@@ -7,11 +7,11 @@
         "5": false
       },
       {
-        "1": "./select.dart",
+        "1": "package:observable/observable.dart",
         "5": false
       },
       {
-        "1": "package:observable/observable.dart",
+        "1": "./select.dart",
         "5": false
       },
       {
@@ -32,6 +32,13 @@
     ]
   },
   "type": {
+    "BaseTableSelectionModel": {
+      "class": "Identifier",
+      "name": "BaseTableSelectionModel",
+      "moduleUrl": "asset:angular_components/lib/src/model/selection/table_selection_model.dart",
+      "prefix": null,
+      "value": null
+    },
     "IsIndeterminate": {
       "class": "Identifier",
       "name": "IsIndeterminate",
@@ -42,6 +49,13 @@
     "TableSelectionModel": {
       "class": "Identifier",
       "name": "TableSelectionModel",
+      "moduleUrl": "asset:angular_components/lib/src/model/selection/table_selection_model.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_SingleTableSelectionModelImpl": {
+      "class": "Identifier",
+      "name": "_SingleTableSelectionModelImpl",
       "moduleUrl": "asset:angular_components/lib/src/model/selection/table_selection_model.dart",
       "prefix": null,
       "value": null

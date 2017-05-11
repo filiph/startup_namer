@@ -11,30 +11,30 @@
         "5": false
       },
       {
+        "1": "../../../portal/portal.dart",
+        "5": false
+      },
+      {
         "1": "../overlay_ref.dart",
         "5": false
       },
       {
         "1": "../overlay_state.dart",
         "5": false
-      },
-      {
-        "1": "../../../portal/portal.dart",
-        "5": false
       }
     ],
     "6": "overlay_dom_ref.dart",
     "7": [
       {
-        "1": "../overlay_ref.template.dart",
+        "1": "../../../portal/portal.template.dart",
         "4": "i0"
       },
       {
-        "1": "../overlay_state.template.dart",
+        "1": "../overlay_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../portal/portal.template.dart",
+        "1": "../overlay_state.template.dart",
         "4": "i2"
       }
     ]

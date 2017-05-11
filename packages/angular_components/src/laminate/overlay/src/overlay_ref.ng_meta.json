@@ -19,11 +19,11 @@
         "5": false
       },
       {
-        "1": "./overlay_state.dart",
+        "1": "../../portal/portal.dart",
         "5": false
       },
       {
-        "1": "../../portal/portal.dart",
+        "1": "./overlay_state.dart",
         "5": false
       }
     ],
@@ -34,11 +34,11 @@
         "4": "i0"
       },
       {
-        "1": "./overlay_state.template.dart",
+        "1": "../../portal/portal.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../portal/portal.template.dart",
+        "1": "./overlay_state.template.dart",
         "4": "i2"
       }
     ]

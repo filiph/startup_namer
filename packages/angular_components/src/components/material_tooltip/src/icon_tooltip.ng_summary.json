@@ -7,6 +7,14 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:intl/intl.dart",
+        "5": false
+      },
+      {
         "1": "../../content/deferred_content_aware.dart",
         "5": false
       },
@@ -20,14 +28,6 @@
       },
       {
         "1": "../../theme/dark_theme.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
-        "5": false
-      },
-      {
-        "1": "package:intl/intl.dart",
         "5": false
       },
       {

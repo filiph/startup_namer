@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../glyph/glyph.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "../material_button/material_button.dart",
+        "1": "package:intl/intl.dart",
         "5": false
       },
       {
@@ -39,11 +39,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../glyph/glyph.dart",
         "5": false
       },
       {
-        "1": "package:intl/intl.dart",
+        "1": "../material_button/material_button.dart",
         "5": false
       },
       {

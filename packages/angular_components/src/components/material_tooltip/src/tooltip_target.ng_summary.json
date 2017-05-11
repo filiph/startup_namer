@@ -15,10 +15,6 @@
         "5": false
       },
       {
-        "1": "./tooltip_controller.dart",
-        "5": false
-      },
-      {
         "1": "../../../laminate/components/popup/popup.dart",
         "2": [
           "PopupSourceDirective"
@@ -41,17 +37,17 @@
         "5": false
       },
       {
-        "1": "../../../utils/async/async.dart",
+        "1": "../../../utils/browser/events/events.dart",
         "5": false
       },
       {
-        "1": "../../../utils/browser/events/events.dart",
+        "1": "./tooltip_controller.dart",
         "5": false
       },
       {
         "1": "tooltip_source.dart",
         "2": [
-          "tooltipDelay"
+          "tooltipShowDelay"
         ],
         "5": false
       }
@@ -331,9 +327,9 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "keyup": "openTooltipWithDelay()",
-        "click": "closeTooltip()",
-        "blur": "closeTooltip()",
+        "keyup": "showTooltipWithDelay()",
+        "click": "hideTooltip()",
+        "blur": "hideTooltip()",
         "mouseover": "onMouseOver()",
         "mouseleave": "onMouseLeave()"
       },

@@ -16,7 +16,11 @@
         "5": false
       },
       {
-        "1": "../../core/change_detection/differs/map_differ.dart",
+        "1": "../../core/change_detection/differs/default_keyvalue_differ.dart",
+        "2": [
+          "DefaultKeyValueDiffer",
+          "KeyValueChangeRecord"
+        ],
         "5": false
       }
     ],
@@ -41,7 +45,7 @@
         "4": "i0"
       },
       {
-        "1": "../../core/change_detection/differs/map_differ.template.dart",
+        "1": "../../core/change_detection/differs/default_keyvalue_differ.template.dart",
         "4": "i1"
       }
     ]

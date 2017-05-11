@@ -11,63 +11,7 @@
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../annotations/rtl_annotation.dart",
-        "5": false
-      },
-      {
-        "1": "../content/deferred_content.dart",
-        "5": false
-      },
-      {
-        "1": "../content/deferred_content_aware.dart",
-        "5": false
-      },
-      {
-        "1": "../focus/keyboard_only_focus_indicator.dart",
-        "5": false
-      },
-      {
-        "1": "../material_list/material_list.dart",
-        "5": false
-      },
-      {
-        "1": "../material_popup/material_popup.dart",
-        "5": false
-      },
-      {
-        "1": "./activation_handler.dart",
-        "5": false
-      },
-      {
-        "1": "./dropdown_button.dart",
-        "5": false
-      },
-      {
-        "1": "./material_select_base.dart",
-        "5": false
-      },
-      {
-        "1": "./material_select_dropdown_item.dart",
-        "5": false
-      },
-      {
-        "1": "./shift_click_selection.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/button_wrapper.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/material_dropdown_base.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/track_layout_changes.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -111,11 +55,67 @@
         "5": false
       },
       {
+        "1": "../../utils/async/async.dart",
+        "5": false
+      },
+      {
         "1": "../../utils/id_generator/id_generator.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../annotations/rtl_annotation.dart",
+        "5": false
+      },
+      {
+        "1": "../content/deferred_content.dart",
+        "5": false
+      },
+      {
+        "1": "../content/deferred_content_aware.dart",
+        "5": false
+      },
+      {
+        "1": "../focus/keyboard_only_focus_indicator.dart",
+        "5": false
+      },
+      {
+        "1": "../material_list/material_list.dart",
+        "5": false
+      },
+      {
+        "1": "../material_popup/material_popup.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/button_wrapper.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/material_dropdown_base.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/track_layout_changes.dart",
+        "5": false
+      },
+      {
+        "1": "./activation_handler.dart",
+        "5": false
+      },
+      {
+        "1": "./dropdown_button.dart",
+        "5": false
+      },
+      {
+        "1": "./material_select_base.dart",
+        "5": false
+      },
+      {
+        "1": "./material_select_dropdown_item.dart",
+        "5": false
+      },
+      {
+        "1": "./shift_click_selection.dart",
         "5": false
       }
     ],
@@ -186,111 +186,111 @@
     "6": "material_dropdown_select.dart",
     "7": [
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../annotations/rtl_annotation.template.dart",
+        "1": "../../laminate/enums/alignment.template.dart",
         "4": "i1"
       },
       {
-        "1": "../content/deferred_content.template.dart",
+        "1": "../../laminate/popup/popup.template.dart",
         "4": "i2"
       },
       {
-        "1": "../content/deferred_content_aware.template.dart",
+        "1": "../../model/a11y/active_item.template.dart",
         "4": "i3"
       },
       {
-        "1": "../focus/keyboard_only_focus_indicator.template.dart",
+        "1": "../../model/a11y/keyboard_handler_mixin.template.dart",
         "4": "i4"
       },
       {
-        "1": "../material_list/material_list.template.dart",
+        "1": "../../model/selection/select.template.dart",
         "4": "i5"
       },
       {
-        "1": "../material_popup/material_popup.template.dart",
+        "1": "../../model/selection/selection_container.template.dart",
         "4": "i6"
       },
       {
-        "1": "./activation_handler.template.dart",
+        "1": "../../model/selection/selection_model.template.dart",
         "4": "i7"
       },
       {
-        "1": "./dropdown_button.template.dart",
+        "1": "../../model/selection/selection_options.template.dart",
         "4": "i8"
       },
       {
-        "1": "./material_select_base.template.dart",
+        "1": "../../model/ui/has_renderer.template.dart",
         "4": "i9"
       },
       {
-        "1": "./material_select_dropdown_item.template.dart",
+        "1": "../../model/ui/template_support.template.dart",
         "4": "i10"
       },
       {
-        "1": "./shift_click_selection.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i11"
       },
       {
-        "1": "../mixins/button_wrapper.template.dart",
+        "1": "../../utils/id_generator/id_generator.template.dart",
         "4": "i12"
       },
       {
-        "1": "../mixins/material_dropdown_base.template.dart",
+        "1": "../annotations/rtl_annotation.template.dart",
         "4": "i13"
       },
       {
-        "1": "../mixins/track_layout_changes.template.dart",
+        "1": "../content/deferred_content.template.dart",
         "4": "i14"
       },
       {
-        "1": "../../laminate/enums/alignment.template.dart",
+        "1": "../content/deferred_content_aware.template.dart",
         "4": "i15"
       },
       {
-        "1": "../../laminate/popup/popup.template.dart",
+        "1": "../focus/keyboard_only_focus_indicator.template.dart",
         "4": "i16"
       },
       {
-        "1": "../../model/a11y/active_item.template.dart",
+        "1": "../material_list/material_list.template.dart",
         "4": "i17"
       },
       {
-        "1": "../../model/a11y/keyboard_handler_mixin.template.dart",
+        "1": "../material_popup/material_popup.template.dart",
         "4": "i18"
       },
       {
-        "1": "../../model/selection/select.template.dart",
+        "1": "../mixins/button_wrapper.template.dart",
         "4": "i19"
       },
       {
-        "1": "../../model/selection/selection_container.template.dart",
+        "1": "../mixins/material_dropdown_base.template.dart",
         "4": "i20"
       },
       {
-        "1": "../../model/selection/selection_model.template.dart",
+        "1": "../mixins/track_layout_changes.template.dart",
         "4": "i21"
       },
       {
-        "1": "../../model/selection/selection_options.template.dart",
+        "1": "./activation_handler.template.dart",
         "4": "i22"
       },
       {
-        "1": "../../model/ui/has_renderer.template.dart",
+        "1": "./dropdown_button.template.dart",
         "4": "i23"
       },
       {
-        "1": "../../model/ui/template_support.template.dart",
+        "1": "./material_select_base.template.dart",
         "4": "i24"
       },
       {
-        "1": "../../utils/id_generator/id_generator.template.dart",
+        "1": "./material_select_dropdown_item.template.dart",
         "4": "i25"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "./shift_click_selection.template.dart",
         "4": "i26"
       }
     ]

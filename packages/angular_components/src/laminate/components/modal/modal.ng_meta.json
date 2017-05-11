@@ -19,14 +19,6 @@
         "5": false
       },
       {
-        "1": "src/modal_controller_directive.dart",
-        "5": false
-      },
-      {
-        "1": "../../overlay/overlay.dart",
-        "5": false
-      },
-      {
         "1": "../../../model/action/async_action.dart",
         "5": false
       },
@@ -36,6 +28,14 @@
       },
       {
         "1": "../../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "../../overlay/overlay.dart",
+        "5": false
+      },
+      {
+        "1": "src/modal_controller_directive.dart",
         "5": false
       }
     ],
@@ -95,23 +95,23 @@
         "4": "i1"
       },
       {
-        "1": "src/modal_controller_directive.template.dart",
+        "1": "../../../model/action/async_action.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../overlay/overlay.template.dart",
+        "1": "../../../utils/async/async.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../../model/action/async_action.template.dart",
+        "1": "../../../utils/disposer/disposer.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../../utils/async/async.template.dart",
+        "1": "../../overlay/overlay.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../../utils/disposer/disposer.template.dart",
+        "1": "src/modal_controller_directive.template.dart",
         "4": "i6"
       }
     ]

@@ -11,19 +11,7 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../glyph/glyph.dart",
-        "5": false
-      },
-      {
-        "1": "./material_radio_group.dart",
-        "5": false
-      },
-      {
-        "1": "../material_ripple/material_ripple.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -43,7 +31,19 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../glyph/glyph.dart",
+        "5": false
+      },
+      {
+        "1": "../material_ripple/material_ripple.dart",
+        "5": false
+      },
+      {
+        "1": "./material_radio_group.dart",
         "5": false
       }
     ],
@@ -104,39 +104,39 @@
     "6": "material_radio.dart",
     "7": [
       {
-        "1": "../focus/focus.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../glyph/glyph.template.dart",
+        "1": "../../model/ui/icon.template.dart",
         "4": "i1"
       },
       {
-        "1": "./material_radio_group.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i2"
       },
       {
-        "1": "../material_ripple/material_ripple.template.dart",
+        "1": "../../utils/browser/events/events.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../model/ui/icon.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../focus/focus.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../utils/browser/events/events.template.dart",
+        "1": "../glyph/glyph.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../utils/disposer/disposer.template.dart",
+        "1": "../material_ripple/material_ripple.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "./material_radio_group.template.dart",
         "4": "i8"
       }
     ]

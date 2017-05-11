@@ -15,6 +15,21 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Inject",
+          "Injectable",
+          "NgZone",
+          "SkipSelf",
+          "Optional"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:logging/logging.dart",
+        "5": false
+      },
+      {
         "1": "./overlay_ref.dart",
         "5": false
       },
@@ -32,21 +47,6 @@
       },
       {
         "1": "render/overlay_dom_render_service.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
-        "2": [
-          "Inject",
-          "Injectable",
-          "NgZone",
-          "SkipSelf",
-          "Optional"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:logging/logging.dart",
         "5": false
       }
     ],
@@ -92,27 +92,27 @@
     "6": "overlay_dom_service.dart",
     "7": [
       {
-        "1": "./overlay_ref.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "./overlay_service.template.dart",
+        "1": "./overlay_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "./overlay_state.template.dart",
+        "1": "./overlay_service.template.dart",
         "4": "i2"
       },
       {
-        "1": "render/overlay_dom_ref.template.dart",
+        "1": "./overlay_state.template.dart",
         "4": "i3"
       },
       {
-        "1": "render/overlay_dom_render_service.template.dart",
+        "1": "render/overlay_dom_ref.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "render/overlay_dom_render_service.template.dart",
         "4": "i5"
       }
     ]

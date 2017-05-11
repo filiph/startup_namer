@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "./material_chip.dart",
-        "5": false
-      },
-      {
         "1": "../../model/selection/selection_model.dart",
         "5": false
       },
@@ -20,6 +16,10 @@
       },
       {
         "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "./material_chip.dart",
         "5": false
       }
     ],
@@ -53,19 +53,19 @@
         "4": "i0"
       },
       {
-        "1": "./material_chip.template.dart",
+        "1": "../../model/selection/selection_model.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../model/selection/selection_model.template.dart",
+        "1": "../../model/ui/has_renderer.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../model/ui/has_renderer.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../utils/disposer/disposer.template.dart",
+        "1": "./material_chip.template.dart",
         "4": "i4"
       }
     ]

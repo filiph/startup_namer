@@ -11,26 +11,6 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/focusable_mixin.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/angular/properties/properties.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/disposer/disposer.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/angular2.dart",
         "5": false
       },
@@ -44,6 +24,22 @@
           "isEmpty",
           "isNotEmpty"
         ],
+        "5": false
+      },
+      {
+        "1": "../../utils/angular/properties/properties.dart",
+        "5": false
+      },
+      {
+        "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/focusable_mixin.dart",
         "5": false
       },
       {

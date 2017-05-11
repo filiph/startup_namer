@@ -7,15 +7,15 @@
         "5": false
       },
       {
+        "1": "package:collection/collection.dart",
+        "5": false
+      },
+      {
         "1": "../../utils/async/async.dart",
         "5": false
       },
       {
         "1": "../../utils/id_generator/id_generator.dart",
-        "5": false
-      },
-      {
-        "1": "package:collection/collection.dart",
         "5": false
       }
     ],

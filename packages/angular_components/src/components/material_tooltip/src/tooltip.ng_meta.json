@@ -12,10 +12,6 @@
         "5": false
       },
       {
-        "1": "../module.dart",
-        "5": false
-      },
-      {
         "1": "../../../laminate/enums/alignment.dart",
         "5": false
       },
@@ -31,15 +27,15 @@
         "5": false
       },
       {
-        "1": "../../../utils/angular/properties/properties.dart",
-        "5": false
-      },
-      {
         "1": "../../../utils/browser/feature_detector/feature_detector.dart",
         "5": false
       },
       {
         "1": "../../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "../module.dart",
         "5": false
       },
       {
@@ -53,7 +49,7 @@
       {
         "1": "tooltip_source.dart",
         "2": [
-          "tooltipDelay"
+          "tooltipShowDelay"
         ],
         "5": false
       },
@@ -104,48 +100,44 @@
         "4": "i0"
       },
       {
-        "1": "../module.template.dart",
+        "1": "../../../laminate/enums/alignment.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../laminate/enums/alignment.template.dart",
+        "1": "../../../laminate/popup/popup.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../../laminate/popup/popup.template.dart",
+        "1": "../../../model/action/delayed_action.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../../model/action/delayed_action.template.dart",
+        "1": "../../../utils/browser/feature_detector/feature_detector.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../../utils/angular/properties/properties.template.dart",
+        "1": "../../../utils/disposer/disposer.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../../utils/browser/feature_detector/feature_detector.template.dart",
+        "1": "../module.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../../utils/disposer/disposer.template.dart",
+        "1": "ink_tooltip.template.dart",
         "4": "i7"
       },
       {
-        "1": "ink_tooltip.template.dart",
+        "1": "tooltip_controller.template.dart",
         "4": "i8"
       },
       {
-        "1": "tooltip_controller.template.dart",
+        "1": "tooltip_source.template.dart",
         "4": "i9"
       },
       {
-        "1": "tooltip_source.template.dart",
-        "4": "i10"
-      },
-      {
         "1": "tooltip_target.template.dart",
-        "4": "i11"
+        "4": "i10"
       }
     ]
   },
@@ -287,14 +279,13 @@
       },
       "changeDetection": 6,
       "inputs": {
-        "twoLineTooltip": "twoLineTooltip",
         "text": "materialTooltip",
-        "show": "showTooltipIf",
+        "canShow": "showTooltipIf",
         "positions": "tooltipPositions"
       },
       "inputTypes": {
         "text": " String",
-        "show": " bool",
+        "canShow": " bool",
         "positions": " List"
       },
       "outputs": {},

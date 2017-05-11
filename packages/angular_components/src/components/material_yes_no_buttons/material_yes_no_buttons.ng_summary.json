@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../material_button/material_button.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "../material_spinner/material_spinner.dart",
+        "1": "package:intl/intl.dart",
         "5": false
       },
       {
@@ -27,11 +27,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../material_button/material_button.dart",
         "5": false
       },
       {
-        "1": "package:intl/intl.dart",
+        "1": "../material_spinner/material_spinner.dart",
         "5": false
       }
     ],
@@ -213,7 +213,9 @@
         ]
       },
       "changeDetection": 6,
-      "inputs": {},
+      "inputs": {
+        "enterAccepts": "enterAccepts"
+      },
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {},

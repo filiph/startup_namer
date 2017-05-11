@@ -7,6 +7,14 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:intl/intl.dart",
+        "5": false
+      },
+      {
         "1": "../../content/deferred_content_aware.dart",
         "5": false
       },
@@ -20,14 +28,6 @@
       },
       {
         "1": "../../theme/dark_theme.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
-        "5": false
-      },
-      {
-        "1": "package:intl/intl.dart",
         "5": false
       },
       {
@@ -88,23 +88,23 @@
     "6": "icon_tooltip.dart",
     "7": [
       {
-        "1": "../../content/deferred_content_aware.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../focus/keyboard_only_focus_indicator.template.dart",
+        "1": "../../content/deferred_content_aware.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../glyph/glyph.template.dart",
+        "1": "../../focus/keyboard_only_focus_indicator.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../theme/dark_theme.template.dart",
+        "1": "../../glyph/glyph.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../../theme/dark_theme.template.dart",
         "4": "i4"
       },
       {

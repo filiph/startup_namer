@@ -7,11 +7,7 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/has_tab_index.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -27,7 +23,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/has_tab_index.dart",
         "5": false
       }
     ],
@@ -45,27 +45,27 @@
     "6": "button_decorator.dart",
     "7": [
       {
-        "1": "../focus/focus.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../mixins/has_tab_index.template.dart",
+        "1": "../../utils/angular/properties/properties.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/angular/properties/properties.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../../utils/browser/events/events.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../utils/browser/events/events.template.dart",
+        "1": "../focus/focus.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../mixins/has_tab_index.template.dart",
         "4": "i5"
       }
     ]
@@ -113,6 +113,7 @@
         "tabindex": "tabindex"
       },
       "inputTypes": {
+        "disabled": " dynamic",
         "tabindex": " String"
       },
       "outputs": {

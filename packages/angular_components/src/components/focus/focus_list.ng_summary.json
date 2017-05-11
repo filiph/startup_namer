@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "./focus.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/angular/managed_zone/angular_2.dart",
         "5": false
       },
@@ -20,6 +16,10 @@
       },
       {
         "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "./focus.dart",
         "5": false
       }
     ],

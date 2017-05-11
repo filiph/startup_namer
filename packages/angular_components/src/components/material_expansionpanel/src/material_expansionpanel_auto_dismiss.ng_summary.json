@@ -15,14 +15,14 @@
         "5": false
       },
       {
-        "1": "../material_expansionpanel.dart",
-        "5": false
-      },
-      {
         "1": "../../../laminate/overlay/module.dart",
         "2": [
           "overlayContainerToken"
         ],
+        "5": false
+      },
+      {
+        "1": "../material_expansionpanel.dart",
         "5": false
       }
     ],

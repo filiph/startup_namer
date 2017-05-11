@@ -11,6 +11,10 @@
         "5": false
       },
       {
+        "1": "../../portal/portal.dart",
+        "5": false
+      },
+      {
         "1": "./dom_popup_source.dart",
         "5": false
       },
@@ -24,10 +28,6 @@
       },
       {
         "1": "./popup_service.dart",
-        "5": false
-      },
-      {
-        "1": "../../portal/portal.dart",
         "5": false
       }
     ],

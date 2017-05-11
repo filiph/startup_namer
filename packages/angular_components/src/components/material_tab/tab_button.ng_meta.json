@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../../material_button/material_button_base.dart",
+        "1": "../material_button/material_button_base.dart",
         "5": false
       },
       {
-        "1": "../../material_ripple/material_ripple.dart",
+        "1": "../material_ripple/material_ripple.dart",
         "5": false
       },
       {
@@ -39,7 +39,25 @@
         ]
       }
     ],
-    "6": "tab_button.dart"
+    "6": "tab_button.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../material_button/material_button_base.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../material_ripple/material_ripple.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "./tab_mixin.template.dart",
+        "4": "i3"
+      }
+    ]
   },
   "type": {
     "TabButtonComponent": {
@@ -50,7 +68,7 @@
       "type": {
         "class": "Type",
         "name": "TabButtonComponent",
-        "moduleUrl": "asset:angular_components/lib/src/components/material_tab/src/tab_button.dart",
+        "moduleUrl": "asset:angular_components/lib/src/components/material_tab/tab_button.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -61,7 +79,7 @@
               "identifier": {
                 "class": "Identifier",
                 "name": "ElementRef",
-                "moduleUrl": null,
+                "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
                 "prefix": null,
                 "value": null
               },
@@ -110,10 +128,10 @@
       "template": {
         "encapsulation": 0,
         "template": "          <div class=\"content\">\n            {{label}}\n          </div>\n          <material-ripple></material-ripple>\n        ",
-        "templateUrl": "asset:angular_components/lib/src/components/material_tab/src/tab_button.dart",
+        "templateUrl": "asset:angular_components/lib/src/components/material_tab/tab_button.dart",
         "styles": [],
         "styleUrls": [
-          "asset:angular_components/lib/src/components/material_tab/src/tab_button.scss.css"
+          "asset:angular_components/lib/src/components/material_tab/tab_button.scss.css"
         ],
         "ngContentSelectors": []
       },

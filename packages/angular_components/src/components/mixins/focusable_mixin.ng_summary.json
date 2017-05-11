@@ -7,11 +7,11 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
+        "1": "../../utils/async/async.dart",
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
+        "1": "../focus/focus.dart",
         "5": false
       }
     ],

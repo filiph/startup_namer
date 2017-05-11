@@ -19,11 +19,11 @@
         "5": false
       },
       {
-        "1": "src/ruler_interface.dart",
+        "1": "../../utils/browser/dom_service/dom_service.dart",
         "5": false
       },
       {
-        "1": "../../utils/browser/dom_service/dom_service.dart",
+        "1": "src/ruler_interface.dart",
         "5": false
       }
     ],

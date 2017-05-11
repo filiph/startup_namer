@@ -11,23 +11,11 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
         "1": "../../../components/content/deferred_content_aware.dart",
-        "5": false
-      },
-      {
-        "1": "./base.dart",
-        "5": false
-      },
-      {
-        "1": "./hierarchy.dart",
-        "5": false
-      },
-      {
-        "1": "../../popup/popup.dart",
-        "5": false
-      },
-      {
-        "1": "../../portal/portal.dart",
         "5": false
       },
       {
@@ -43,7 +31,19 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../../popup/popup.dart",
+        "5": false
+      },
+      {
+        "1": "../../portal/portal.dart",
+        "5": false
+      },
+      {
+        "1": "./base.dart",
+        "5": false
+      },
+      {
+        "1": "./hierarchy.dart",
         "5": false
       }
     ],
@@ -153,39 +153,39 @@
     "6": "popup.dart",
     "7": [
       {
-        "1": "../../../components/content/deferred_content_aware.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "./base.template.dart",
+        "1": "../../../components/content/deferred_content_aware.template.dart",
         "4": "i1"
       },
       {
-        "1": "./hierarchy.template.dart",
+        "1": "../../../model/ui/toggle.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../popup/popup.template.dart",
+        "1": "../../../utils/browser/dom_service/dom_service.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../portal/portal.template.dart",
+        "1": "../../../utils/disposer/disposer.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../../model/ui/toggle.template.dart",
+        "1": "../../popup/popup.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../../utils/browser/dom_service/dom_service.template.dart",
+        "1": "../../portal/portal.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../../utils/disposer/disposer.template.dart",
+        "1": "./base.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "./hierarchy.template.dart",
         "4": "i8"
       },
       {

@@ -31,6 +31,22 @@
             "4": false
           }
         ]
+      },
+      {
+        "1": "getLocation",
+        "3": true,
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Window",
+            "4": "window"
+          }
+        ]
       }
     ],
     "6": "module.dart"
@@ -44,6 +60,35 @@
       "value": null,
       "diDeps": []
     },
+    "getLocation": {
+      "class": "Factory",
+      "name": "getLocation",
+      "prefix": null,
+      "moduleUrl": "asset:angular_components/lib/src/utils/browser/window/module.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "Window",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        }
+      ]
+    },
     "getWindow": {
       "class": "Factory",
       "name": "getWindow",
@@ -51,6 +96,41 @@
       "moduleUrl": "asset:angular_components/lib/src/utils/browser/window/module.dart",
       "value": null,
       "diDeps": []
+    },
+    "locationBindings": {
+      "class": "Identifier",
+      "name": "locationBindings",
+      "moduleUrl": "asset:angular_components/lib/src/utils/browser/window/module.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "Location",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "getLocation",
+            "prefix": null,
+            "moduleUrl": null,
+            "value": null,
+            "diDeps": []
+          },
+          "multi": false,
+          "deps": null
+        }
+      ]
     },
     "windowBindings": {
       "class": "Identifier",

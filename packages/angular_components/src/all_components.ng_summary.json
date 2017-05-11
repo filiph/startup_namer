@@ -168,7 +168,13 @@
         "1": "components/material_tab/material_tab_panel.dart"
       },
       {
+        "1": "components/material_tab/tab_button.dart"
+      },
+      {
         "1": "components/material_tab/tab_change_event.dart"
+      },
+      {
+        "1": "components/material_tab/tab_mixin.dart"
       },
       {
         "1": "components/material_toggle/material_toggle.dart"
@@ -196,6 +202,9 @@
       },
       {
         "1": "components/mixins/track_layout_changes.dart"
+      },
+      {
+        "1": "components/reorder_list/reorder_events.dart"
       },
       {
         "1": "components/reorder_list/reorder_list.dart"

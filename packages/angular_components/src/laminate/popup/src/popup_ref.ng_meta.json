@@ -15,6 +15,18 @@
         "5": false
       },
       {
+        "1": "../../../model/action/async_action.dart",
+        "5": false
+      },
+      {
+        "1": "../../../model/ui/toggle.dart",
+        "5": false
+      },
+      {
+        "1": "../../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
         "1": "../../enums/alignment.dart",
         "5": false
       },
@@ -27,27 +39,15 @@
         "5": false
       },
       {
+        "1": "../../portal/portal.dart",
+        "5": false
+      },
+      {
         "1": "./popup_event.dart",
         "5": false
       },
       {
         "1": "./popup_state.dart",
-        "5": false
-      },
-      {
-        "1": "../../portal/portal.dart",
-        "5": false
-      },
-      {
-        "1": "../../../model/action/async_action.dart",
-        "5": false
-      },
-      {
-        "1": "../../../model/ui/toggle.dart",
-        "5": false
-      },
-      {
-        "1": "../../../utils/disposer/disposer.dart",
         "5": false
       }
     ],
@@ -58,39 +58,39 @@
         "4": "i0"
       },
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "../../../model/action/async_action.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../enums/visibility.template.dart",
+        "1": "../../../model/ui/toggle.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../overlay/overlay.template.dart",
+        "1": "../../../utils/disposer/disposer.template.dart",
         "4": "i3"
       },
       {
-        "1": "./popup_event.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i4"
       },
       {
-        "1": "./popup_state.template.dart",
+        "1": "../../enums/visibility.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../portal/portal.template.dart",
+        "1": "../../overlay/overlay.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../../model/action/async_action.template.dart",
+        "1": "../../portal/portal.template.dart",
         "4": "i7"
       },
       {
-        "1": "../../../model/ui/toggle.template.dart",
+        "1": "./popup_event.template.dart",
         "4": "i8"
       },
       {
-        "1": "../../../utils/disposer/disposer.template.dart",
+        "1": "./popup_state.template.dart",
         "4": "i9"
       }
     ]

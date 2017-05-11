@@ -19,10 +19,6 @@
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/browser/events/events.dart",
         "5": false
       }

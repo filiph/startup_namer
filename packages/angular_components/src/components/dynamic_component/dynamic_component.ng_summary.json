@@ -7,15 +7,15 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
         "1": "../../model/ui/has_renderer.dart",
         "5": false
       },
       {
         "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
         "5": false
       }
     ],

@@ -15,14 +15,14 @@
         "5": false
       },
       {
-        "1": "../material_expansionpanel.dart",
-        "5": false
-      },
-      {
         "1": "../../../laminate/overlay/module.dart",
         "2": [
           "overlayContainerToken"
         ],
+        "5": false
+      },
+      {
+        "1": "../material_expansionpanel.dart",
         "5": false
       }
     ],
@@ -59,11 +59,11 @@
         "4": "i0"
       },
       {
-        "1": "../material_expansionpanel.template.dart",
+        "1": "../../../laminate/overlay/module.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../laminate/overlay/module.template.dart",
+        "1": "../material_expansionpanel.template.dart",
         "4": "i2"
       }
     ]

@@ -134,16 +134,9 @@
       "queries": [],
       "viewQueries": []
     },
-    "tooltipCloseDelay": {
+    "tooltipShowDelay": {
       "class": "Identifier",
-      "name": "tooltipCloseDelay",
-      "moduleUrl": "asset:angular_components/lib/src/components/material_tooltip/src/tooltip_source.dart",
-      "prefix": null,
-      "value": null
-    },
-    "tooltipDelay": {
-      "class": "Identifier",
-      "name": "tooltipDelay",
+      "name": "tooltipShowDelay",
       "moduleUrl": "asset:angular_components/lib/src/components/material_tooltip/src/tooltip_source.dart",
       "prefix": null,
       "value": null

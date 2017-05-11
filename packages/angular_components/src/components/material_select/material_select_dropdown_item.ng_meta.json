@@ -7,23 +7,7 @@
         "5": false
       },
       {
-        "1": "../dynamic_component/dynamic_component.dart",
-        "5": false
-      },
-      {
-        "1": "../material_checkbox/material_checkbox.dart",
-        "5": false
-      },
-      {
-        "1": "./activation_handler.dart",
-        "5": false
-      },
-      {
-        "1": "./material_select_item.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/material_dropdown_base.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -39,7 +23,23 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../dynamic_component/dynamic_component.dart",
+        "5": false
+      },
+      {
+        "1": "../glyph/glyph.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/material_dropdown_base.dart",
+        "5": false
+      },
+      {
+        "1": "./activation_handler.dart",
+        "5": false
+      },
+      {
+        "1": "./material_select_item.dart",
         "5": false
       }
     ],
@@ -78,7 +78,7 @@
             "2": "DynamicComponent"
           },
           {
-            "2": "MaterialCheckboxComponent"
+            "2": "GlyphComponent"
           },
           {
             "2": "NgIf"
@@ -89,39 +89,39 @@
     "6": "material_select_dropdown_item.dart",
     "7": [
       {
-        "1": "../dynamic_component/dynamic_component.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../material_checkbox/material_checkbox.template.dart",
+        "1": "../../model/selection/selection_container.template.dart",
         "4": "i1"
       },
       {
-        "1": "./activation_handler.template.dart",
+        "1": "../../model/ui/has_renderer.template.dart",
         "4": "i2"
       },
       {
-        "1": "./material_select_item.template.dart",
+        "1": "../../utils/browser/dom_service/dom_service.template.dart",
         "4": "i3"
       },
       {
-        "1": "../mixins/material_dropdown_base.template.dart",
+        "1": "../dynamic_component/dynamic_component.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../model/selection/selection_container.template.dart",
+        "1": "../glyph/glyph.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../model/ui/has_renderer.template.dart",
+        "1": "../mixins/material_dropdown_base.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../utils/browser/dom_service/dom_service.template.dart",
+        "1": "./activation_handler.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "./material_select_item.template.dart",
         "4": "i8"
       }
     ]
@@ -262,7 +262,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div *ngIf=\"!supportsMultiSelect && isSelected\"\n     class=\"selected-accent\"\n     [attr.aria-label]=\"selectedMessage\">\n</div>\n<material-checkbox *ngIf=\"supportsMultiSelect && !hideCheckbox\"\n                   [checked]=\"isSelected\"\n                   [disabled]=\"disabled\"\n                   [attr.aria-label]=\"isSelected ? selectedMessage : notSelectedMessage\">\n</material-checkbox>\n<span *ngIf=\"valueHasLabel\" class=\"label\">{{valueLabel}}</span>\n<dynamic-component *ngIf=\"componentType != null\"\n    class=\"dynamic-item\"\n    [componentType]=\"componentType\"\n    [value]=\"value\">\n</dynamic-component>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div *ngIf=\"!supportsMultiSelect && isSelected\"\n     class=\"selected-accent\"\n     [attr.aria-label]=\"selectedMessage\">\n</div>\n<span *ngIf=\"supportsMultiSelect && !hideCheckbox\"\n      class=\"check-container\"\n      [attr.aria-label]=\"isSelected ? selectedMessage : notSelectedMessage\">\n  <glyph *ngIf=\"isSelected\"\n         baseline\n         class=\"check\"\n         icon=\"check\">\n  </glyph>\n</span>\n<span *ngIf=\"valueHasLabel\" class=\"label\">{{valueLabel}}</span>\n<dynamic-component *ngIf=\"componentType != null\"\n                   class=\"dynamic-item\"\n                   [componentType]=\"componentType\"\n                   [value]=\"value\">\n</dynamic-component>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_select/material_select_dropdown_item.html",
         "styles": [],
         "styleUrls": [

@@ -15,6 +15,17 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:quiver/iterables.dart",
+        "2": [
+          "range"
+        ],
+        "5": false
+      },
+      {
         "1": "../../utils/angular/managed_zone/angular_2.dart",
         "5": false
       },
@@ -31,15 +42,13 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "./reorder_events.dart",
         "5": false
-      },
+      }
+    ],
+    "4": [
       {
-        "1": "package:quiver/iterables.dart",
-        "2": [
-          "range"
-        ],
-        "5": false
+        "1": "reorder_events.dart"
       }
     ],
     "5": [
@@ -68,27 +77,6 @@
     "6": "reorder_list.dart"
   },
   "type": {
-    "ItemSelectionEvent": {
-      "class": "Identifier",
-      "name": "ItemSelectionEvent",
-      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_list.dart",
-      "prefix": null,
-      "value": null
-    },
-    "MultiReorderEvent": {
-      "class": "Identifier",
-      "name": "MultiReorderEvent",
-      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_list.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ReorderEvent": {
-      "class": "Identifier",
-      "name": "ReorderEvent",
-      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_list.dart",
-      "prefix": null,
-      "value": null
-    },
     "ReorderItemDirective": {
       "class": "Directive",
       "isComponent": false,

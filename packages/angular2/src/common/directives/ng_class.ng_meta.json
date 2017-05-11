@@ -17,7 +17,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/change_detection/differs/map_differ.dart",
+        "1": "package:angular2/src/core/change_detection/differs/default_keyvalue_differ.dart",
         "5": false
       }
     ],
@@ -47,7 +47,7 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/change_detection/differs/map_differ.template.dart",
+        "1": "package:angular2/src/core/change_detection/differs/default_keyvalue_differ.template.dart",
         "4": "i2"
       }
     ]

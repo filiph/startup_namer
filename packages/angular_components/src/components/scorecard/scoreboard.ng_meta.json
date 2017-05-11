@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../glyph/glyph.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "../material_button/material_button.dart",
+        "1": "package:intl/intl.dart",
         "5": false
       },
       {
@@ -39,11 +39,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../glyph/glyph.dart",
         "5": false
       },
       {
-        "1": "package:intl/intl.dart",
+        "1": "../material_button/material_button.dart",
         "5": false
       },
       {
@@ -98,35 +98,35 @@
     "6": "scoreboard.dart",
     "7": [
       {
-        "1": "../glyph/glyph.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../material_button/material_button.template.dart",
+        "1": "../../model/selection/selection_model.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../model/selection/selection_model.template.dart",
+        "1": "../../utils/angular/properties/properties.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/angular/properties/properties.template.dart",
+        "1": "../../utils/browser/dom_service/angular_2.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../utils/browser/dom_service/angular_2.template.dart",
+        "1": "../../utils/color/palette.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../utils/color/palette.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../utils/disposer/disposer.template.dart",
+        "1": "../glyph/glyph.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../material_button/material_button.template.dart",
         "4": "i7"
       },
       {

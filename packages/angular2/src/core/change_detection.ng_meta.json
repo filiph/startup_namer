@@ -95,6 +95,20 @@
       "prefix": null,
       "value": null
     },
+    "DefaultKeyValueDiffer": {
+      "class": "Identifier",
+      "name": "DefaultKeyValueDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "value": null
+    },
+    "KeyValueChangeRecord": {
+      "class": "Identifier",
+      "name": "KeyValueChangeRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "value": null
+    },
     "PipeTransform": {
       "class": "Identifier",
       "name": "PipeTransform",
@@ -148,6 +162,13 @@
       "class": "Identifier",
       "name": "_DuplicateMap",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_MapHandler": {
+      "class": "Identifier",
+      "name": "_MapHandler",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
       "prefix": null,
       "value": null
     },

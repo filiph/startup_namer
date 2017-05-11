@@ -27,11 +27,11 @@
         "5": false
       },
       {
-        "1": "./popup_source.dart",
+        "1": "../../ruler/dom_ruler.dart",
         "5": false
       },
       {
-        "1": "../../ruler/dom_ruler.dart",
+        "1": "./popup_source.dart",
         "5": false
       }
     ],

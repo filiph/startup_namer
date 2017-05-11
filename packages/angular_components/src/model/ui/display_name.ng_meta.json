@@ -3,11 +3,11 @@
     "1": "angular_components.model.ui.display_name",
     "3": [
       {
-        "1": "../formatters/formatter.dart",
+        "1": "package:quiver/core.dart",
         "5": false
       },
       {
-        "1": "package:quiver/core.dart",
+        "1": "../formatters/formatter.dart",
         "5": false
       }
     ],

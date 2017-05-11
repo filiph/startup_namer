@@ -11,7 +11,15 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
         "1": "../../../css/acux/zindexer.dart",
+        "5": false
+      },
+      {
+        "1": "../../../utils/browser/events/events.dart",
         "5": false
       },
       {
@@ -28,14 +36,6 @@
       },
       {
         "1": "./popup_state.dart",
-        "5": false
-      },
-      {
-        "1": "../../../utils/browser/events/events.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
         "5": false
       }
     ],
@@ -71,31 +71,31 @@
     "6": "popup_service.dart",
     "7": [
       {
-        "1": "../../../css/acux/zindexer.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "../../../css/acux/zindexer.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../overlay/overlay.template.dart",
+        "1": "../../../utils/browser/events/events.template.dart",
         "4": "i2"
       },
       {
-        "1": "./popup_ref.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i3"
       },
       {
-        "1": "./popup_state.template.dart",
+        "1": "../../overlay/overlay.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../../utils/browser/events/events.template.dart",
+        "1": "./popup_ref.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "./popup_state.template.dart",
         "4": "i6"
       }
     ]

@@ -7,11 +7,7 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/has_tab_index.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -27,7 +23,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/has_tab_index.dart",
         "5": false
       }
     ],
@@ -87,6 +87,7 @@
         "tabindex": "tabindex"
       },
       "inputTypes": {
+        "disabled": " dynamic",
         "tabindex": " String"
       },
       "outputs": {

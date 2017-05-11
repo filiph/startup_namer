@@ -11,10 +11,6 @@
         "5": false
       },
       {
-        "1": "../../../enums/visibility.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/angular2.dart",
         "5": false
       },
@@ -23,11 +19,15 @@
         "5": false
       },
       {
-        "1": "../overlay_state.dart",
+        "1": "../../../../utils/angular/imperative_view/imperative_view.dart",
         "5": false
       },
       {
-        "1": "./overlay_style_config.dart",
+        "1": "../../../../utils/browser/dom_service/dom_service.dart",
+        "5": false
+      },
+      {
+        "1": "../../../enums/visibility.dart",
         "5": false
       },
       {
@@ -39,11 +39,11 @@
         "5": false
       },
       {
-        "1": "../../../../utils/angular/imperative_view/imperative_view.dart",
+        "1": "../overlay_state.dart",
         "5": false
       },
       {
-        "1": "../../../../utils/browser/dom_service/dom_service.dart",
+        "1": "./overlay_style_config.dart",
         "5": false
       }
     ],

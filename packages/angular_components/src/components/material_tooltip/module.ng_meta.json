@@ -7,11 +7,11 @@
         "5": false
       },
       {
-        "1": "src/tooltip_controller.dart",
+        "1": "../../utils/disposer/disposer.dart",
         "5": false
       },
       {
-        "1": "../../utils/disposer/disposer.dart",
+        "1": "src/tooltip_controller.dart",
         "5": false
       }
     ],
@@ -51,11 +51,11 @@
         "4": "i0"
       },
       {
-        "1": "src/tooltip_controller.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/disposer/disposer.template.dart",
+        "1": "src/tooltip_controller.template.dart",
         "4": "i2"
       }
     ]

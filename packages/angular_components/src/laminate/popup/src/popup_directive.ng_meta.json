@@ -11,6 +11,10 @@
         "5": false
       },
       {
+        "1": "../../portal/portal.dart",
+        "5": false
+      },
+      {
         "1": "./dom_popup_source.dart",
         "5": false
       },
@@ -24,10 +28,6 @@
       },
       {
         "1": "./popup_service.dart",
-        "5": false
-      },
-      {
-        "1": "../../portal/portal.dart",
         "5": false
       }
     ],
@@ -64,23 +64,23 @@
         "4": "i0"
       },
       {
-        "1": "./dom_popup_source.template.dart",
+        "1": "../../portal/portal.template.dart",
         "4": "i1"
       },
       {
-        "1": "./popup_controller_base.template.dart",
+        "1": "./dom_popup_source.template.dart",
         "4": "i2"
       },
       {
-        "1": "./popup_ref.template.dart",
+        "1": "./popup_controller_base.template.dart",
         "4": "i3"
       },
       {
-        "1": "./popup_service.template.dart",
+        "1": "./popup_ref.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../portal/portal.template.dart",
+        "1": "./popup_service.template.dart",
         "4": "i5"
       }
     ]

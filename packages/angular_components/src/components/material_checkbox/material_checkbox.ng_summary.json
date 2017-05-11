@@ -3,7 +3,23 @@
     "1": "",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../model/ui/icon.dart",
+        "5": false
+      },
+      {
+        "1": "../../utils/browser/events/events.dart",
         "5": false
       },
       {
@@ -12,22 +28,6 @@
       },
       {
         "1": "../material_ripple/material_ripple.dart",
-        "5": false
-      },
-      {
-        "1": "../../model/ui/icon.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/browser/events/events.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
         "5": false
       }
     ],
@@ -199,9 +199,9 @@
       },
       "inputTypes": {},
       "outputs": {
-        "onChange": "change",
         "onChecked": "checkedChange",
-        "onIndeterminate": "indeterminateChange"
+        "onIndeterminate": "indeterminateChange",
+        "onChange": "change"
       },
       "hostListeners": {
         "click": "handleClick($event)",

@@ -19,11 +19,11 @@
         "5": false
       },
       {
-        "1": "src/ruler_interface.dart",
+        "1": "../../utils/browser/dom_service/dom_service.dart",
         "5": false
       },
       {
-        "1": "../../utils/browser/dom_service/dom_service.dart",
+        "1": "src/ruler_interface.dart",
         "5": false
       }
     ],
@@ -80,11 +80,11 @@
         "4": "i0"
       },
       {
-        "1": "src/ruler_interface.template.dart",
+        "1": "../../utils/browser/dom_service/dom_service.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/browser/dom_service/dom_service.template.dart",
+        "1": "src/ruler_interface.template.dart",
         "4": "i2"
       }
     ]

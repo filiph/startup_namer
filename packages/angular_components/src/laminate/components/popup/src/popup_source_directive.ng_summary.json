@@ -15,6 +15,10 @@
         "5": false
       },
       {
+        "1": "../../../../utils/async/async.dart",
+        "5": false
+      },
+      {
         "1": "../../../enums/alignment.dart",
         "5": false
       },
@@ -24,10 +28,6 @@
           "DomPopupSourceFactory",
           "PopupSource"
         ],
-        "5": false
-      },
-      {
-        "1": "../../../../utils/async/async.dart",
         "5": false
       }
     ],

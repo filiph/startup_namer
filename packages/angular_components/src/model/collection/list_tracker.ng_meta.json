@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../../utils/disposer/disposer.dart",
+        "1": "package:observable/observable.dart",
         "5": false
       },
       {
-        "1": "package:observable/observable.dart",
+        "1": "../../utils/disposer/disposer.dart",
         "5": false
       }
     ],

@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "./popup_ref.dart",
+        "1": "../../../model/action/async_action.dart",
         "5": false
       },
       {
-        "1": "../../../model/action/async_action.dart",
+        "1": "./popup_ref.dart",
         "5": false
       }
     ],

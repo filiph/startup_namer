@@ -11,22 +11,22 @@
         "5": false
       },
       {
-        "1": "../../enums/alignment.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../../enums/alignment.dart",
         "5": false
       }
     ],
     "6": "popup_source.dart",
     "7": [
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i1"
       }
     ]

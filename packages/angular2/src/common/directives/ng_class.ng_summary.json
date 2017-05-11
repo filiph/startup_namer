@@ -17,7 +17,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/change_detection/differs/map_differ.dart",
+        "1": "package:angular2/src/core/change_detection/differs/default_keyvalue_differ.dart",
         "5": false
       }
     ],

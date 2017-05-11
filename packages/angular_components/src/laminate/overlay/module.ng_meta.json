@@ -15,26 +15,6 @@
         "5": false
       },
       {
-        "1": "src/overlay_dom_service.dart",
-        "5": false
-      },
-      {
-        "1": "src/overlay_service.dart",
-        "5": false
-      },
-      {
-        "1": "src/render/overlay_dom_render_service.dart",
-        "5": false
-      },
-      {
-        "1": "src/render/overlay_style_config.dart",
-        "5": false
-      },
-      {
-        "1": "../ruler/dom_ruler.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/angular/imperative_view/imperative_view.dart",
         "5": false
       },
@@ -48,6 +28,26 @@
       },
       {
         "1": "../../utils/browser/window/module.dart",
+        "5": false
+      },
+      {
+        "1": "../ruler/dom_ruler.dart",
+        "5": false
+      },
+      {
+        "1": "src/overlay_dom_service.dart",
+        "5": false
+      },
+      {
+        "1": "src/overlay_service.dart",
+        "5": false
+      },
+      {
+        "1": "src/render/overlay_dom_render_service.dart",
+        "5": false
+      },
+      {
+        "1": "src/render/overlay_style_config.dart",
         "5": false
       }
     ],
@@ -179,19 +179,19 @@
         "4": "i1"
       },
       {
-        "1": "src/overlay_dom_service.template.dart",
+        "1": "../../utils/angular/imperative_view/imperative_view.template.dart",
         "4": "i2"
       },
       {
-        "1": "src/overlay_service.template.dart",
+        "1": "../../utils/angular/managed_zone/angular_2.template.dart",
         "4": "i3"
       },
       {
-        "1": "src/render/overlay_dom_render_service.template.dart",
+        "1": "../../utils/browser/dom_service/angular_2.template.dart",
         "4": "i4"
       },
       {
-        "1": "src/render/overlay_style_config.template.dart",
+        "1": "../../utils/browser/window/module.template.dart",
         "4": "i5"
       },
       {
@@ -199,19 +199,19 @@
         "4": "i6"
       },
       {
-        "1": "../../utils/angular/imperative_view/imperative_view.template.dart",
+        "1": "src/overlay_dom_service.template.dart",
         "4": "i7"
       },
       {
-        "1": "../../utils/angular/managed_zone/angular_2.template.dart",
+        "1": "src/overlay_service.template.dart",
         "4": "i8"
       },
       {
-        "1": "../../utils/browser/dom_service/angular_2.template.dart",
+        "1": "src/render/overlay_dom_render_service.template.dart",
         "4": "i9"
       },
       {
-        "1": "../../utils/browser/window/module.template.dart",
+        "1": "src/render/overlay_style_config.template.dart",
         "4": "i10"
       }
     ]

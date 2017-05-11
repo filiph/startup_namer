@@ -11,63 +11,7 @@
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../annotations/rtl_annotation.dart",
-        "5": false
-      },
-      {
-        "1": "../content/deferred_content.dart",
-        "5": false
-      },
-      {
-        "1": "../content/deferred_content_aware.dart",
-        "5": false
-      },
-      {
-        "1": "../focus/keyboard_only_focus_indicator.dart",
-        "5": false
-      },
-      {
-        "1": "../material_list/material_list.dart",
-        "5": false
-      },
-      {
-        "1": "../material_popup/material_popup.dart",
-        "5": false
-      },
-      {
-        "1": "./activation_handler.dart",
-        "5": false
-      },
-      {
-        "1": "./dropdown_button.dart",
-        "5": false
-      },
-      {
-        "1": "./material_select_base.dart",
-        "5": false
-      },
-      {
-        "1": "./material_select_dropdown_item.dart",
-        "5": false
-      },
-      {
-        "1": "./shift_click_selection.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/button_wrapper.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/material_dropdown_base.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/track_layout_changes.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -111,11 +55,67 @@
         "5": false
       },
       {
+        "1": "../../utils/async/async.dart",
+        "5": false
+      },
+      {
         "1": "../../utils/id_generator/id_generator.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../annotations/rtl_annotation.dart",
+        "5": false
+      },
+      {
+        "1": "../content/deferred_content.dart",
+        "5": false
+      },
+      {
+        "1": "../content/deferred_content_aware.dart",
+        "5": false
+      },
+      {
+        "1": "../focus/keyboard_only_focus_indicator.dart",
+        "5": false
+      },
+      {
+        "1": "../material_list/material_list.dart",
+        "5": false
+      },
+      {
+        "1": "../material_popup/material_popup.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/button_wrapper.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/material_dropdown_base.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/track_layout_changes.dart",
+        "5": false
+      },
+      {
+        "1": "./activation_handler.dart",
+        "5": false
+      },
+      {
+        "1": "./dropdown_button.dart",
+        "5": false
+      },
+      {
+        "1": "./material_select_base.dart",
+        "5": false
+      },
+      {
+        "1": "./material_select_dropdown_item.dart",
+        "5": false
+      },
+      {
+        "1": "./shift_click_selection.dart",
         "5": false
       }
     ],

@@ -27,11 +27,11 @@
         "5": false
       },
       {
-        "1": "./popup_source.dart",
+        "1": "../../ruler/dom_ruler.dart",
         "5": false
       },
       {
-        "1": "../../ruler/dom_ruler.dart",
+        "1": "./popup_source.dart",
         "5": false
       }
     ],
@@ -71,11 +71,11 @@
         "4": "i2"
       },
       {
-        "1": "./popup_source.template.dart",
+        "1": "../../ruler/dom_ruler.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../ruler/dom_ruler.template.dart",
+        "1": "./popup_source.template.dart",
         "4": "i4"
       }
     ]

@@ -7,11 +7,11 @@
         "5": false
       },
       {
-        "1": "../selection_model.dart",
+        "1": "package:observable/observable.dart",
         "5": false
       },
       {
-        "1": "package:observable/observable.dart",
+        "1": "../selection_model.dart",
         "5": false
       }
     ],

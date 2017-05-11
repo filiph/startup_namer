@@ -11,23 +11,11 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
         "1": "../../../components/content/deferred_content_aware.dart",
-        "5": false
-      },
-      {
-        "1": "./base.dart",
-        "5": false
-      },
-      {
-        "1": "./hierarchy.dart",
-        "5": false
-      },
-      {
-        "1": "../../popup/popup.dart",
-        "5": false
-      },
-      {
-        "1": "../../portal/portal.dart",
         "5": false
       },
       {
@@ -43,7 +31,19 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../../popup/popup.dart",
+        "5": false
+      },
+      {
+        "1": "../../portal/portal.dart",
+        "5": false
+      },
+      {
+        "1": "./base.dart",
+        "5": false
+      },
+      {
+        "1": "./hierarchy.dart",
         "5": false
       }
     ],

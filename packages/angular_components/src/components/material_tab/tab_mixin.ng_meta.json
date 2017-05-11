@@ -4,7 +4,7 @@
     "TabMixin": {
       "class": "Identifier",
       "name": "TabMixin",
-      "moduleUrl": "asset:angular_components/lib/src/components/material_tab/src/tab_mixin.dart",
+      "moduleUrl": "asset:angular_components/lib/src/components/material_tab/tab_mixin.dart",
       "prefix": null,
       "value": null
     }

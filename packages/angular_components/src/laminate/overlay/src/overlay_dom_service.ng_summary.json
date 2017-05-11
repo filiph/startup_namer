@@ -15,6 +15,21 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Inject",
+          "Injectable",
+          "NgZone",
+          "SkipSelf",
+          "Optional"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:logging/logging.dart",
+        "5": false
+      },
+      {
         "1": "./overlay_ref.dart",
         "5": false
       },
@@ -32,21 +47,6 @@
       },
       {
         "1": "render/overlay_dom_render_service.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
-        "2": [
-          "Inject",
-          "Injectable",
-          "NgZone",
-          "SkipSelf",
-          "Optional"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:logging/logging.dart",
         "5": false
       }
     ],

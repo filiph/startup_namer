@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "../../utils/angular/properties/properties.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/angular2.dart",
         "5": false
       },
@@ -20,6 +16,10 @@
       },
       {
         "1": "package:quiver/strings.dart",
+        "5": false
+      },
+      {
+        "1": "../../utils/angular/properties/properties.dart",
         "5": false
       },
       {
@@ -35,23 +35,23 @@
         "5": false
       },
       {
-        "1": "material_number_validators.dart",
+        "1": "material_input_error_keys.dart",
         "5": false
       },
       {
-        "1": "material_input_error_keys.dart",
+        "1": "material_number_validators.dart",
         "5": false
       }
     ],
     "4": [
       {
-        "1": "material_number_validators.dart"
-      },
-      {
         "1": "material_input.dart",
         "2": [
           "MaterialInputComponent"
         ]
+      },
+      {
+        "1": "material_number_validators.dart"
       }
     ],
     "5": [

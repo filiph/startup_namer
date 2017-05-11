@@ -11,12 +11,12 @@
         "5": false
       },
       {
-        "1": "../../../utils/browser/events/events.dart",
-        "4": "events",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../../../utils/browser/events/events.dart",
+        "4": "events",
         "5": false
       }
     ],

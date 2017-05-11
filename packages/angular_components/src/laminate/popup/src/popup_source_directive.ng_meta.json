@@ -15,6 +15,10 @@
         "5": false
       },
       {
+        "1": "../../../utils/angular/reference/reference.dart",
+        "5": false
+      },
+      {
         "1": "../../enums/alignment.dart",
         "5": false
       },
@@ -24,10 +28,6 @@
       },
       {
         "1": "./popup_source.dart",
-        "5": false
-      },
-      {
-        "1": "../../../utils/angular/reference/reference.dart",
         "5": false
       }
     ],
@@ -65,19 +65,19 @@
         "4": "i0"
       },
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "../../../utils/angular/reference/reference.template.dart",
         "4": "i1"
       },
       {
-        "1": "./dom_popup_source.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i2"
       },
       {
-        "1": "./popup_source.template.dart",
+        "1": "./dom_popup_source.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../../utils/angular/reference/reference.template.dart",
+        "1": "./popup_source.template.dart",
         "4": "i4"
       }
     ]

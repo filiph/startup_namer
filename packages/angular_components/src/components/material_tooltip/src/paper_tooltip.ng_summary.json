@@ -11,6 +11,17 @@
         "5": false
       },
       {
+        "1": "../../../laminate/enums/alignment.dart",
+        "5": false
+      },
+      {
+        "1": "../../../laminate/popup/popup.dart",
+        "2": [
+          "PopupSource"
+        ],
+        "5": false
+      },
+      {
         "1": "../../content/deferred_content.dart",
         "5": false
       },
@@ -24,21 +35,6 @@
       },
       {
         "1": "../module.dart",
-        "5": false
-      },
-      {
-        "1": "../../../laminate/enums/alignment.dart",
-        "5": false
-      },
-      {
-        "1": "../../../laminate/popup/popup.dart",
-        "2": [
-          "PopupSource"
-        ],
-        "5": false
-      },
-      {
-        "1": "../../../utils/async/async.dart",
         "5": false
       },
       {

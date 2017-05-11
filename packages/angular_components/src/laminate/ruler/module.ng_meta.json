@@ -7,14 +7,6 @@
         "5": false
       },
       {
-        "1": "./dom_ruler.dart",
-        "5": false
-      },
-      {
-        "1": "./ng_ruler.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/angular/managed_zone/angular_2.dart",
         "5": false
       },
@@ -25,6 +17,14 @@
       {
         "1": "../../utils/browser/window/module.dart",
         "5": false
+      },
+      {
+        "1": "./dom_ruler.dart",
+        "5": false
+      },
+      {
+        "1": "./ng_ruler.dart",
+        "5": false
       }
     ],
     "6": "module.dart",
@@ -34,23 +34,23 @@
         "4": "i0"
       },
       {
-        "1": "./dom_ruler.template.dart",
+        "1": "../../utils/angular/managed_zone/angular_2.template.dart",
         "4": "i1"
       },
       {
-        "1": "./ng_ruler.template.dart",
+        "1": "../../utils/browser/dom_service/angular_2.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/angular/managed_zone/angular_2.template.dart",
+        "1": "../../utils/browser/window/module.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../utils/browser/dom_service/angular_2.template.dart",
+        "1": "./dom_ruler.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../utils/browser/window/module.template.dart",
+        "1": "./ng_ruler.template.dart",
         "4": "i5"
       }
     ]

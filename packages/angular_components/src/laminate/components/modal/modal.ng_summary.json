@@ -19,14 +19,6 @@
         "5": false
       },
       {
-        "1": "src/modal_controller_directive.dart",
-        "5": false
-      },
-      {
-        "1": "../../overlay/overlay.dart",
-        "5": false
-      },
-      {
         "1": "../../../model/action/async_action.dart",
         "5": false
       },
@@ -36,6 +28,14 @@
       },
       {
         "1": "../../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "../../overlay/overlay.dart",
+        "5": false
+      },
+      {
+        "1": "src/modal_controller_directive.dart",
         "5": false
       }
     ],

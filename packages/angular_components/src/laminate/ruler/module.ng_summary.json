@@ -7,14 +7,6 @@
         "5": false
       },
       {
-        "1": "./dom_ruler.dart",
-        "5": false
-      },
-      {
-        "1": "./ng_ruler.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/angular/managed_zone/angular_2.dart",
         "5": false
       },
@@ -24,6 +16,14 @@
       },
       {
         "1": "../../utils/browser/window/module.dart",
+        "5": false
+      },
+      {
+        "1": "./dom_ruler.dart",
+        "5": false
+      },
+      {
+        "1": "./ng_ruler.dart",
         "5": false
       }
     ],

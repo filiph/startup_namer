@@ -1113,6 +1113,7 @@
         "tabindex": "tabindex"
       },
       "inputTypes": {
+        "disabled": " dynamic",
         "tabindex": " String"
       },
       "outputs": {
@@ -4137,6 +4138,13 @@
       "prefix": null,
       "value": null
     },
+    "DefaultKeyValueDiffer": {
+      "class": "Identifier",
+      "name": "DefaultKeyValueDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "value": null
+    },
     "DefaultValueAccessor": {
       "class": "Directive",
       "isComponent": false,
@@ -4858,7 +4866,9 @@
         ]
       },
       "changeDetection": 6,
-      "inputs": {},
+      "inputs": {
+        "enterAccepts": "enterAccepts"
+      },
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
@@ -6113,14 +6123,12 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {
-        "aria-multiselectable": "false",
-        "class": "themeable",
-        "role": "tablist"
+        "class": "themeable"
       },
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"navi-bar\"\n     focusList>\n  <div class=\"tab-indicator\"\n       [style.transform]=\"tabIndicatorTransform\">\n  </div>\n  <tab-button *ngFor=\"let tabLabel of tabLabels; let idx = index\"\n              (trigger)=\"switchTo(idx)\"\n              [id]=\"tabId(idx)\"\n              class=\"tab-button\"\n              [active]=\"activeTabIndex == idx\"\n              [attr.aria-selected]=\"activeStr(idx)\"\n              [label]=\"tabLabel\"\n              focusItem>\n  </tab-button>\n</div>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"navi-bar\" focusList role=\"tablist\">\n  <div class=\"tab-indicator\" [style.transform]=\"tabIndicatorTransform\"></div>\n  <tab-button *ngFor=\"let tabLabel of tabLabels; let idx = index\"\n              (trigger)=\"switchTo(idx)\"\n              [id]=\"tabId(idx)\"\n              class=\"tab-button\"\n              [active]=\"activeTabIndex == idx\"\n              [attr.aria-selected]=\"activeStr(idx)\"\n              [label]=\"tabLabel\"\n              focusItem\n              role=\"tab\">\n  </tab-button>\n</div>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_tab/fixed_material_tab_strip.html",
         "styles": [],
         "styleUrls": [
@@ -7040,7 +7048,7 @@
     "ItemSelectionEvent": {
       "class": "Identifier",
       "name": "ItemSelectionEvent",
-      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_list.dart",
+      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_events.dart",
       "prefix": null,
       "value": null
     },
@@ -7120,6 +7128,13 @@
       "viewProviders": [],
       "queries": [],
       "viewQueries": []
+    },
+    "KeyValueChangeRecord": {
+      "class": "Identifier",
+      "name": "KeyValueChangeRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "value": null
     },
     "KeyboardOnlyFocusIndicatorDirective": {
       "class": "Directive",
@@ -7736,9 +7751,9 @@
       },
       "inputTypes": {},
       "outputs": {
-        "onChange": "change",
         "onChecked": "checkedChange",
-        "onIndeterminate": "indeterminateChange"
+        "onIndeterminate": "indeterminateChange",
+        "onChange": "change"
       },
       "hostListeners": {
         "click": "handleClick($event)",
@@ -8939,6 +8954,7 @@
         "expandIcon": "expandIcon",
         "alwaysShowExpandIcon": "alwaysShowExpandIcon",
         "showSaveCancel": "showSaveCancel",
+        "enterAccepts": "enterAccepts",
         "saveText": "saveText",
         "cancelText": "cancelText"
       },
@@ -8973,7 +8989,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"panel themeable\"\n     role=\"group\"\n     [attr.aria-label]=\"name\"\n     [attr.aria-expanded]=\"isExpanded\"\n     [class.open]=\"isExpanded\"\n     [class.background]=\"anotherExpanded\">\n\n  <!-- Title section -->\n  <header buttonDecorator\n          #expandCollapseButton\n          *ngIf=\"!isExpanded || !hideExpandedHeader\"\n          [disabled]=\"disabled\"\n          [class.closed] = \"!isExpanded\"\n          [class.disable-header-expansion]=\"disableHeaderExpansion\"\n          [attr.aria-label]=\"headerMsg\"\n          (trigger)=\"handleHeaderClick()\">\n    <div class=\"panel-name\">\n      <p class=\"primary-text\">{{name}}</p>\n      <p class=\"secondary-text\" *ngIf=\"secondaryText != null\">{{secondaryText}}</p>\n      <ng-content select=\"[name]\"></ng-content>\n    </div>\n\n    <div class=\"panel-description\">\n      <ng-content select=\"[value]\"></ng-content>\n    </div>\n\n    <glyph buttonDecorator\n           *ngIf=\"shouldShowExpandIcon\"\n           class=\"expand-button\"\n           [icon]=\"expandIcon\"\n           [class.expand-more]=\"shouldFlipExpandIcon\"\n           (trigger)=\"handleExpandIconClick()\">\n    </glyph>\n  </header>\n\n  <!-- Expanded section -->\n  <main [class.hidden]=\"!isExpanded\">\n    <div class=\"content-wrapper\" [class.hidden-header]=\"hideExpandedHeader\">\n      <div class=\"content\">\n        <ng-content></ng-content>\n      </div>\n      <glyph *ngIf=\"shouldShowHiddenHeaderExpandIcon\"\n             #expandCollapseButton\n             [icon]=\"expandIcon\"\n             class=\"expand-button\"\n             buttonDecorator\n             (trigger)=\"collapse()\"\n             [attr.aria-label]=\"closePanelMsg\">\n      </glyph>\n    </div>\n\n    <div *ngIf=\"!showSaveCancel\" class=\"toolbelt\">\n      <ng-content select=\"[toolbelt]\"></ng-content>\n    </div>\n\n    <material-yes-no-buttons\n        *ngIf=\"showSaveCancel\"\n        reverse\n        class=\"action-buttons\"\n        [pending]=\"activeSaveCancelAction\"\n        [yesText]=\"saveText\"\n        [noText]=\"cancelText\"\n        [yesDisabled]=\"saveDisabled\"\n        (yes)=\"doSave()\"\n        (no)=\"doCancel()\">\n    </material-yes-no-buttons>\n  </main>\n\n</div>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"panel themeable\"\n     role=\"group\"\n     [attr.aria-label]=\"name\"\n     [attr.aria-expanded]=\"isExpanded\"\n     [class.open]=\"isExpanded\"\n     [class.background]=\"anotherExpanded\"\n     keyupBoundary>\n\n  <!-- Title section -->\n  <header buttonDecorator\n          #expandCollapseButton\n          *ngIf=\"!isExpanded || !hideExpandedHeader\"\n          [disabled]=\"disabled\"\n          [class.closed] = \"!isExpanded\"\n          [class.disable-header-expansion]=\"disableHeaderExpansion\"\n          [attr.aria-label]=\"headerMsg\"\n          (trigger)=\"handleHeaderClick()\">\n    <div class=\"panel-name\">\n      <p class=\"primary-text\">{{name}}</p>\n      <p class=\"secondary-text\" *ngIf=\"secondaryText != null\">{{secondaryText}}</p>\n      <ng-content select=\"[name]\"></ng-content>\n    </div>\n\n    <div class=\"panel-description\">\n      <ng-content select=\"[value]\"></ng-content>\n    </div>\n\n    <glyph buttonDecorator\n           *ngIf=\"shouldShowExpandIcon\"\n           class=\"expand-button\"\n           [icon]=\"expandIcon\"\n           [class.expand-more]=\"shouldFlipExpandIcon\"\n           (trigger)=\"handleExpandIconClick()\">\n    </glyph>\n  </header>\n\n  <!-- Expanded section -->\n  <main [class.hidden]=\"!isExpanded\">\n    <div class=\"content-wrapper\" [class.hidden-header]=\"hideExpandedHeader\">\n      <div class=\"content\">\n        <ng-content></ng-content>\n      </div>\n      <glyph *ngIf=\"shouldShowHiddenHeaderExpandIcon\"\n             #expandCollapseButton\n             [icon]=\"expandIcon\"\n             class=\"expand-button\"\n             buttonDecorator\n             (trigger)=\"collapse()\"\n             [attr.aria-label]=\"closePanelMsg\">\n      </glyph>\n    </div>\n\n    <div *ngIf=\"!showSaveCancel\" class=\"toolbelt\">\n      <ng-content select=\"[toolbelt]\"></ng-content>\n    </div>\n\n    <material-yes-no-buttons\n        *ngIf=\"showSaveCancel\"\n        reverse\n        class=\"action-buttons\"\n        [pending]=\"activeSaveCancelAction\"\n        [yesText]=\"saveText\"\n        [noText]=\"cancelText\"\n        [yesDisabled]=\"saveDisabled\"\n        [enterAccepts]=\"enterAccepts\"\n        (yes)=\"doSave()\"\n        (no)=\"doCancel()\">\n    </material-yes-no-buttons>\n  </main>\n\n</div>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_expansionpanel/material_expansionpanel.html",
         "styles": [],
         "styleUrls": [
@@ -8984,7 +9000,8 @@
           "[value]",
           "*",
           "[toolbelt]"
-        ]
+        ],
+        "preserveWhitespace": false
       },
       "providers": [
         {
@@ -9826,7 +9843,6 @@
       "changeDetection": 4,
       "inputs": {
         "positions": "positions",
-        "twoLine": "twoLine",
         "text": "text",
         "tooltipRef": "for"
       },
@@ -9842,7 +9858,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "        <material-popup *ngIf=\"popupSource != null\"\n                        ink\n                        autoDismiss=\"false\"\n                        enforceSpaceConstraints\n                        matchSourceWidth=\"false\"\n                        matchMinSourceWidth=\"false\"\n                        shadowCssClass=\"aacmtit-ink-tooltip-shadow\"\n                        trackLayoutChanges\n                        [preferredPositions]=\"positions\"\n                        [source]=\"popupSource\"\n                        [visible]=\"showPopup\">\n          <div *deferredContent\n               [class.two-line]=\"twoLine\"\n               class=\"ink-container\">\n            <span>{{text}}<ng-content></ng-content></span>\n          </div>\n        </material-popup>",
+        "template": "        <material-popup *ngIf=\"popupSource != null\"\n                        ink\n                        autoDismiss=\"false\"\n                        enforceSpaceConstraints\n                        matchSourceWidth=\"false\"\n                        matchMinSourceWidth=\"false\"\n                        shadowCssClass=\"aacmtit-ink-tooltip-shadow\"\n                        trackLayoutChanges\n                        [preferredPositions]=\"positions\"\n                        [source]=\"popupSource\"\n                        [visible]=\"showPopup\">\n          <div *deferredContent class=\"ink-container\">\n            {{text}}<ng-content></ng-content>\n          </div>\n        </material-popup>",
         "templateUrl": "asset:angular_components/lib/src/components/material_tooltip/src/ink_tooltip.dart",
         "styles": [],
         "styleUrls": [
@@ -10186,7 +10202,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"baseline\" #popupSourceEl>\n  <div class=\"top-section\">\n    <span *ngIf=\"hasLeadingGlyph\"\n          class=\"leading-text\"\n          [class.floated-label]=\"floatingLabel\">\n      <glyph class=\"glyph leading\"\n             icon=\"{{leadingGlyph}}\"\n             [attr.disabled]=\"disabled\">\n      </glyph>\n    </span>\n    <span *ngIf=\"hasLeadingText\"\n          class=\"leading-text\"\n          [class.floated-label]=\"floatingLabel\">\n      {{leadingText}}\n    </span>\n\n    <label class=\"input-container\"\n           [class.floated-label]=\"floatingLabel\">\n      <div class=\"label\"\n           aria-hidden=\"true\"\n           [class.right-align]=\"rightAlign\">\n        <!-- needed for floating label animation measurement -->\n        <span class=\"label-text\"\n              [class.invisible]=\"!labelVisible\"\n              [class.animated]=\"labelAnimated\"\n              [class.reset]=\"labelAnimationReset\"\n              [class.focused]=\"focused && floatingLabelVisible\"\n              [class.invalid]=\"invalid && floatingLabelVisible\">\n          {{label}}\n        </span>\n      </div>\n\n      <input #inputEl\n             focusableElement\n             class=\"input\"\n             [class.disabledInput]=\"disabled\"\n             [class.right-align]=\"rightAlign\"\n             [type]=\"type\"\n             [multiple]=\"multiple\"\n             attr.aria-invalid=\"{{invalid}}\"\n             [attr.aria-label]=\"ariaLabel\"\n             [disabled]=\"disabled\"\n             [ngModel]=\"inputText\"\n             (blur)=\"inputBlurAction($event, inputEl.validity.valid, inputEl.validationMessage)\"\n             (change)=\"inputChange(inputEl.value, inputEl.validity.valid, inputEl.validationMessage);$event.stopPropagation()\"\n             (focus)=\"inputFocusAction($event)\"\n             (input)=\"inputKeypress(inputEl.value, inputEl.validity.valid, inputEl.validationMessage)\">\n    </label>\n    <span *ngIf=\"hasTrailingText\"\n          class=\"trailing-text\"\n          [class.floated-label]=\"floatingLabel\">\n      {{trailingText}}\n    </span>\n    <span *ngIf=\"hasTrailingGlyph\"\n          class=\"trailing-text\"\n          [class.floated-label]=\"floatingLabel\">\n      <glyph class=\"glyph trailing\"\n             icon=\"{{trailingGlyph}}\"\n             [attr.disabled]=\"disabled\">\n      </glyph>\n    </span>\n    <ng-content select=\"[trailing]\"></ng-content>\n  </div>\n\n  <div class=\"underline\">\n    <div class=\"disabled-underline\" [class.invisible]=\"!disabled\">\n    </div>\n    <div class=\"unfocused-underline\"\n         [class.invisible]=\"disabled\" [class.invalid]=\"invalid\"></div>\n    <div class=\"focused-underline\"\n         [class.invisible]=\"!focused\" [class.invalid]=\"invalid\"\n         [class.animated]=\"underlineAnimated\"></div>\n  </div>\n</div>\n\n<div class=\"bottom-section\" *ngIf=\"displayBottomPanel\" [ngSwitch]=\"bottomPanelState\">\n  <div class=\"error-text\"\n       role=\"alert\"\n       attr.aria-hidden=\"{{!invalid}}\"\n       [class.focused]=\"focused\"\n       [class.invalid]=\"invalid\"\n       *ngSwitchWhen=\"errorState\">\n    {{errorMessage}}\n  </div>\n  <div class=\"hint-text\" *ngSwitchWhen=\"hintState\">\n    {{hintText}}\n  </div>\n  <div class=\"spaceholder\"\n       *ngSwitchWhen=\"emptyState\"\n       tabindex=\"-1\"\n       (focus)=\"$event.stopPropagation()\">\n    &nbsp;\n  </div>\n  <div *ngIf=\"maxCount != null && focused\"\n       class=\"counter\"\n       aria-hidden=\"true\"\n       [class.invalid]=\"invalid\">\n    {{msgCharacterCounter(inputTextLength, maxCount)}}\n  </div>\n</div>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"baseline\" #popupSourceEl>\n  <div class=\"top-section\">\n    <span *ngIf=\"hasLeadingGlyph\"\n          class=\"leading-text\"\n          [class.floated-label]=\"floatingLabel\">\n      <glyph class=\"glyph leading\"\n             icon=\"{{leadingGlyph}}\"\n             [attr.disabled]=\"disabled\">\n      </glyph>\n    </span>\n    <span *ngIf=\"hasLeadingText\"\n          class=\"leading-text\"\n          [class.floated-label]=\"floatingLabel\">\n      {{leadingText}}\n    </span>\n\n    <label class=\"input-container\"\n           [class.floated-label]=\"floatingLabel\">\n      <div class=\"label\"\n           aria-hidden=\"true\"\n           [class.right-align]=\"rightAlign\">\n        <!-- needed for floating label animation measurement -->\n        <span class=\"label-text\"\n              [class.invisible]=\"!labelVisible\"\n              [class.animated]=\"labelAnimated\"\n              [class.reset]=\"labelAnimationReset\"\n              [class.focused]=\"focused && floatingLabelVisible\"\n              [class.invalid]=\"invalid && floatingLabelVisible\">\n          {{label}}\n        </span>\n      </div>\n\n      <input #inputEl\n             focusableElement\n             class=\"input\"\n             [class.disabledInput]=\"disabled\"\n             [class.right-align]=\"rightAlign\"\n             [type]=\"type\"\n             [multiple]=\"multiple\"\n             attr.aria-invalid=\"{{invalid}}\"\n             [attr.aria-label]=\"ariaLabel\"\n             [disabled]=\"disabled\"\n             [ngModel]=\"inputText\"\n             (blur)=\"inputBlurAction($event, inputEl.validity.valid, inputEl.validationMessage)\"\n             (change)=\"inputChange(inputEl.value, inputEl.validity.valid, inputEl.validationMessage);$event.stopPropagation()\"\n             (focus)=\"inputFocusAction($event)\"\n             (input)=\"inputKeypress(inputEl.value, inputEl.validity.valid, inputEl.validationMessage)\">\n    </label>\n    <span *ngIf=\"hasTrailingText\"\n          class=\"trailing-text\"\n          [class.floated-label]=\"floatingLabel\">\n      {{trailingText}}\n    </span>\n    <span *ngIf=\"hasTrailingGlyph\"\n          class=\"trailing-text\"\n          [class.floated-label]=\"floatingLabel\">\n      <glyph class=\"glyph trailing\"\n             icon=\"{{trailingGlyph}}\"\n             [attr.disabled]=\"disabled\">\n      </glyph>\n    </span>\n    <ng-content select=\"[trailing]\"></ng-content>\n  </div>\n\n  <div class=\"underline\">\n    <div class=\"disabled-underline\" [class.invisible]=\"!disabled\">\n    </div>\n    <div class=\"unfocused-underline\"\n         [class.invisible]=\"disabled\" [class.invalid]=\"invalid\"></div>\n    <div class=\"focused-underline\"\n         [class.invisible]=\"!focused\" [class.invalid]=\"invalid\"\n         [class.animated]=\"underlineAnimated\"></div>\n  </div>\n</div>\n\n<div class=\"bottom-section\" *ngIf=\"displayBottomPanel\" [ngSwitch]=\"bottomPanelState\">\n  <div class=\"error-text\"\n       role=\"alert\"\n       attr.aria-hidden=\"{{!invalid}}\"\n       [class.focused]=\"focused\"\n       [class.invalid]=\"invalid\"\n       *ngSwitchWhen=\"errorState\">\n    {{errorMessage}}\n  </div>\n  <div class=\"hint-text\" *ngSwitchWhen=\"hintState\">\n    {{hintText}}\n  </div>\n  <div class=\"spaceholder\"\n       *ngSwitchWhen=\"emptyState\"\n       tabindex=\"-1\"\n       (focus)=\"$event.stopPropagation()\">\n    &nbsp;\n  </div>\n  <div *ngIf=\"maxCount != null\"\n       class=\"counter\"\n       aria-hidden=\"true\"\n       [class.invalid]=\"invalid\">\n    {{msgCharacterCounter(inputTextLength, maxCount)}}\n  </div>\n</div>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_input/material_input.html",
         "styles": [],
         "styleUrls": [
@@ -11135,7 +11151,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"baseline\" #popupSourceEl>\n  <div class=\"top-section\">\n    <div class=\"input-container\"\n         [class.floated-label]=\"floatingLabel\">\n      <div class=\"label\" aria-hidden=\"true\">\n        <!-- needed for floating label animation measurement -->\n        <span class=\"label-text\"\n              [class.multiline]=\"rows > 1\"\n              [class.invisible]=\"!labelVisible\"\n              [class.animated]=\"labelAnimated\"\n              [class.reset]=\"labelAnimationReset\"\n              [class.focused]=\"focused && floatingLabelVisible\"\n              [class.invalid]=\"invalid && floatingLabelVisible\">\n          {{label}}\n        </span>\n      </div>\n      <div>\n        <!-- Invisible text for sizing the multiline input to grow\n             with typing. -->\n        <div class=\"mirror-text\"\n            aria-hidden=\"true\"\n            [style.min-height.px]=\"minInputHeight\"\n            [style.max-height.px]=\"maxInputHeight\">\n          {{mirrorText}}\n        </div>\n\n        <!-- Invisible element for measuring line height of the input. -->\n        <div class=\"line-height-measure\"\n            aria-hidden=\"true\"\n            #lineHeightMeasure>\n          <br/>\n        </div>\n\n        <textarea #textareaEl\n                  focusableElement\n                  class=\"textarea\"\n                  [class.disabledInput]=\"disabled\"\n                  attr.aria-invalid=\"{{invalid}}\"\n                  [attr.aria-label]=\"ariaLabel\"\n                  [disabled]=\"disabled\"\n                  [ngModel]=\"inputText\"\n                  (blur)=\"inputBlurAction($event, textareaEl.validity.valid, textareaEl.validationMessage)\"\n                  (change)=\"inputChange(textareaEl.value, textareaEl.validity.valid, textareaEl.validationMessage);$event.stopPropagation()\"\n                  (focus)=\"inputFocusAction($event)\"\n                  (input)=\"inputKeypress(textareaEl.value, textareaEl.validity.valid, textareaEl.validationMessage)\"></textarea>\n      </div>\n    </div>\n    <ng-content select=\"[trailing]\"></ng-content>\n  </div>\n\n  <div class=\"underline\">\n    <div class=\"disabled-underline\" [class.invisible]=\"!disabled\">\n    </div>\n    <div class=\"unfocused-underline\"\n         [class.invisible]=\"disabled\" [class.invalid]=\"invalid\"></div>\n    <div class=\"focused-underline\"\n         [class.invisible]=\"!focused\" [class.invalid]=\"invalid\"\n         [class.animated]=\"underlineAnimated\"></div>\n  </div>\n</div>\n\n<div class=\"bottom-section\" *ngIf=\"displayBottomPanel\" [ngSwitch]=\"bottomPanelState\">\n  <div class=\"error-text\"\n       role=\"alert\"\n       attr.aria-hidden=\"{{!invalid}}\"\n       [class.focused]=\"focused\"\n       [class.invalid]=\"invalid\"\n       *ngSwitchWhen=\"errorState\">\n    {{errorMessage}}\n  </div>\n  <div class=\"hint-text\" *ngSwitchWhen=\"hintState\">\n    {{hintText}}\n  </div>\n  <div class=\"spaceholder\"\n       *ngSwitchWhen=\"emptyState\"\n       tabindex=\"-1\"\n       (focus)=\"$event.stopPropagation()\">\n    &nbsp;\n  </div>\n  <div *ngIf=\"maxCount != null && focused\"\n       class=\"counter\"\n       aria-hidden=\"true\"\n       [class.invalid]=\"invalid\">\n    {{msgCharacterCounter(inputTextLength, maxCount)}}\n  </div>\n</div>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"baseline\" #popupSourceEl>\n  <div class=\"top-section\">\n    <div class=\"input-container\"\n         [class.floated-label]=\"floatingLabel\">\n      <div class=\"label\" aria-hidden=\"true\">\n        <!-- needed for floating label animation measurement -->\n        <span class=\"label-text\"\n              [class.multiline]=\"rows > 1\"\n              [class.invisible]=\"!labelVisible\"\n              [class.animated]=\"labelAnimated\"\n              [class.reset]=\"labelAnimationReset\"\n              [class.focused]=\"focused && floatingLabelVisible\"\n              [class.invalid]=\"invalid && floatingLabelVisible\">\n          {{label}}\n        </span>\n      </div>\n      <div>\n        <!-- Invisible text for sizing the multiline input to grow\n             with typing. -->\n        <div class=\"mirror-text\"\n            aria-hidden=\"true\"\n            [style.min-height.px]=\"minInputHeight\"\n            [style.max-height.px]=\"maxInputHeight\">\n          {{mirrorText}}\n        </div>\n\n        <!-- Invisible element for measuring line height of the input. -->\n        <div class=\"line-height-measure\"\n            aria-hidden=\"true\"\n            #lineHeightMeasure>\n          <br/>\n        </div>\n\n        <textarea #textareaEl\n                  focusableElement\n                  class=\"textarea\"\n                  [class.disabledInput]=\"disabled\"\n                  attr.aria-invalid=\"{{invalid}}\"\n                  [attr.aria-label]=\"ariaLabel\"\n                  [disabled]=\"disabled\"\n                  [ngModel]=\"inputText\"\n                  (blur)=\"inputBlurAction($event, textareaEl.validity.valid, textareaEl.validationMessage)\"\n                  (change)=\"inputChange(textareaEl.value, textareaEl.validity.valid, textareaEl.validationMessage);$event.stopPropagation()\"\n                  (focus)=\"inputFocusAction($event)\"\n                  (input)=\"inputKeypress(textareaEl.value, textareaEl.validity.valid, textareaEl.validationMessage)\"></textarea>\n      </div>\n    </div>\n    <ng-content select=\"[trailing]\"></ng-content>\n  </div>\n\n  <div class=\"underline\">\n    <div class=\"disabled-underline\" [class.invisible]=\"!disabled\">\n    </div>\n    <div class=\"unfocused-underline\"\n         [class.invisible]=\"disabled\" [class.invalid]=\"invalid\"></div>\n    <div class=\"focused-underline\"\n         [class.invisible]=\"!focused\" [class.invalid]=\"invalid\"\n         [class.animated]=\"underlineAnimated\"></div>\n  </div>\n</div>\n\n<div class=\"bottom-section\" *ngIf=\"displayBottomPanel\" [ngSwitch]=\"bottomPanelState\">\n  <div class=\"error-text\"\n       role=\"alert\"\n       attr.aria-hidden=\"{{!invalid}}\"\n       [class.focused]=\"focused\"\n       [class.invalid]=\"invalid\"\n       *ngSwitchWhen=\"errorState\">\n    {{errorMessage}}\n  </div>\n  <div class=\"hint-text\" *ngSwitchWhen=\"hintState\">\n    {{hintText}}\n  </div>\n  <div class=\"spaceholder\"\n       *ngSwitchWhen=\"emptyState\"\n       tabindex=\"-1\"\n       (focus)=\"$event.stopPropagation()\">\n    &nbsp;\n  </div>\n  <div *ngIf=\"maxCount != null\"\n       class=\"counter\"\n       aria-hidden=\"true\"\n       [class.invalid]=\"invalid\">\n    {{msgCharacterCounter(inputTextLength, maxCount)}}\n  </div>\n</div>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_input/material_input_multiline.html",
         "styles": [],
         "styleUrls": [
@@ -14389,7 +14405,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div *ngIf=\"!supportsMultiSelect && isSelected\"\n     class=\"selected-accent\"\n     [attr.aria-label]=\"selectedMessage\">\n</div>\n<material-checkbox *ngIf=\"supportsMultiSelect && !hideCheckbox\"\n                   [checked]=\"isSelected\"\n                   [disabled]=\"disabled\"\n                   [attr.aria-label]=\"isSelected ? selectedMessage : notSelectedMessage\">\n</material-checkbox>\n<span *ngIf=\"valueHasLabel\" class=\"label\">{{valueLabel}}</span>\n<dynamic-component *ngIf=\"componentType != null\"\n    class=\"dynamic-item\"\n    [componentType]=\"componentType\"\n    [value]=\"value\">\n</dynamic-component>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div *ngIf=\"!supportsMultiSelect && isSelected\"\n     class=\"selected-accent\"\n     [attr.aria-label]=\"selectedMessage\">\n</div>\n<span *ngIf=\"supportsMultiSelect && !hideCheckbox\"\n      class=\"check-container\"\n      [attr.aria-label]=\"isSelected ? selectedMessage : notSelectedMessage\">\n  <glyph *ngIf=\"isSelected\"\n         baseline\n         class=\"check\"\n         icon=\"check\">\n  </glyph>\n</span>\n<span *ngIf=\"valueHasLabel\" class=\"label\">{{valueLabel}}</span>\n<dynamic-component *ngIf=\"componentType != null\"\n                   class=\"dynamic-item\"\n                   [componentType]=\"componentType\"\n                   [value]=\"value\">\n</dynamic-component>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_select/material_select_dropdown_item.html",
         "styles": [],
         "styleUrls": [
@@ -14732,6 +14748,7 @@
         "hideCheckbox": "hideCheckbox",
         "itemRenderer": "itemRenderer",
         "componentRenderer": "componentRenderer",
+        "useCheckMarks": "useCheckMarks",
         "selection": "selection",
         "selected": "selected",
         "closeOnActivate": "closeOnActivate"
@@ -14767,7 +14784,7 @@
       ],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div *ngIf=\"!supportsMultiSelect && isSelected\"\n     class=\"selected-accent\"\n     [attr.aria-label]=\"selectedMessage\">\n</div>\n<material-checkbox *ngIf=\"supportsMultiSelect\"\n                   tabindex=\"-1\"\n                   [checked]=\"isSelected\"\n                   [disabled]=\"disabled\"\n                   [attr.aria-label]=\"isSelected ? selectedMessage : notSelectedMessage\">\n</material-checkbox>\n<span *ngIf=\"valueHasLabel\" class=\"label\">{{valueLabel}}</span>\n<dynamic-component *ngIf=\"componentType != null\"\n    class=\"dynamic-item\"\n    [componentType]=\"componentType\"\n    [value]=\"value\">\n</dynamic-component>\n<ng-content></ng-content>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div *ngIf=\"!supportsMultiSelect && isSelected\"\n     class=\"selected-accent\"\n     [attr.aria-label]=\"selectedMessage\">\n</div>\n<material-checkbox *ngIf=\"supportsMultiSelect && !useCheckMarks\"\n                   tabindex=\"-1\"\n                   [checked]=\"isSelected\"\n                   [disabled]=\"disabled\"\n                   [attr.aria-label]=\n                       \"isSelected ? selectedMessage : notSelectedMessage\">\n</material-checkbox>\n<span *ngIf=\"supportsMultiSelect && useCheckMarks\"\n      class=\"check-container\"\n      [attr.aria-label]=\"isSelected ? selectedMessage : notSelectedMessage\">\n  <glyph *ngIf=\"isSelected\"\n         baseline\n         class=\"check\"\n         icon=\"check\">\n  </glyph>\n</span>\n<span *ngIf=\"valueHasLabel\" class=\"label\">{{valueLabel}}</span>\n<dynamic-component *ngIf=\"componentType != null\"\n                   class=\"dynamic-item\"\n                   [componentType]=\"componentType\"\n                   [value]=\"value\">\n</dynamic-component>\n<ng-content></ng-content>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_select/material_select_item.html",
         "styles": [],
         "styleUrls": [
@@ -15616,14 +15633,13 @@
       },
       "changeDetection": 6,
       "inputs": {
-        "twoLineTooltip": "twoLineTooltip",
         "text": "materialTooltip",
-        "show": "showTooltipIf",
+        "canShow": "showTooltipIf",
         "positions": "tooltipPositions"
       },
       "inputTypes": {
         "text": " String",
-        "show": " bool",
+        "canShow": " bool",
         "positions": " List"
       },
       "outputs": {},
@@ -15935,9 +15951,9 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "keyup": "openTooltipWithDelay()",
-        "click": "closeTooltip()",
-        "blur": "closeTooltip()",
+        "keyup": "showTooltipWithDelay()",
+        "click": "hideTooltip()",
+        "blur": "hideTooltip()",
         "mouseover": "onMouseOver()",
         "mouseleave": "onMouseLeave()"
       },
@@ -16510,7 +16526,7 @@
     "MultiReorderEvent": {
       "class": "Identifier",
       "name": "MultiReorderEvent",
-      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_list.dart",
+      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_events.dart",
       "prefix": null,
       "value": null
     },
@@ -19517,7 +19533,7 @@
     "ReorderEvent": {
       "class": "Identifier",
       "name": "ReorderEvent",
-      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_list.dart",
+      "moduleUrl": "asset:angular_components/lib/src/components/reorder_list/reorder_events.dart",
       "prefix": null,
       "value": null
     },
@@ -20563,10 +20579,97 @@
       "prefix": null,
       "value": null
     },
+    "TabButtonComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "tab-button",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "TabButtonComponent",
+        "moduleUrl": "asset:angular_components/lib/src/components/material_tab/tab_button.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ElementRef",
+                "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "label": "label",
+        "isActive": "active"
+      },
+      "inputTypes": {
+        "isActive": " bool"
+      },
+      "outputs": {
+        "trigger": "trigger"
+      },
+      "hostListeners": {
+        "mouseup": "onMouseUp($event)",
+        "click": "handleClick($event)",
+        "keypress": "handleKeyPress($event)",
+        "focus": "onFocus($event)",
+        "blur": "onBlur($event)",
+        "mousedown": "onMouseDown($event)"
+      },
+      "hostProperties": {
+        "attr.tabindex": "tabIndex",
+        "class.is-disabled": "disabled",
+        "class.focus": "visualFocus",
+        "class.active": "isActive || isMouseDown",
+        "attr.aria-disabled": "disabledStr"
+      },
+      "hostAttributes": {
+        "role": "tab"
+      },
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "          <div class=\"content\">\n            {{label}}\n          </div>\n          <material-ripple></material-ripple>\n        ",
+        "templateUrl": "asset:angular_components/lib/src/components/material_tab/tab_button.dart",
+        "styles": [],
+        "styleUrls": [
+          "asset:angular_components/lib/src/components/material_tab/tab_button.scss.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
     "TabChangeEvent": {
       "class": "Identifier",
       "name": "TabChangeEvent",
       "moduleUrl": "asset:angular_components/lib/src/components/material_tab/tab_change_event.dart",
+      "prefix": null,
+      "value": null
+    },
+    "TabMixin": {
+      "class": "Identifier",
+      "name": "TabMixin",
+      "moduleUrl": "asset:angular_components/lib/src/components/material_tab/tab_mixin.dart",
       "prefix": null,
       "value": null
     },
@@ -21041,6 +21144,13 @@
       "class": "Identifier",
       "name": "_MAX_CONSTRUCTION_COUNTER",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_injector.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_MapHandler": {
+      "class": "Identifier",
+      "name": "_MapHandler",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
       "prefix": null,
       "value": null
     },
@@ -37734,13 +37844,6 @@
       "prefix": null,
       "value": null
     },
-    "tooltipCloseDelay": {
-      "class": "Identifier",
-      "name": "tooltipCloseDelay",
-      "moduleUrl": "asset:angular_components/lib/src/components/material_tooltip/src/tooltip_source.dart",
-      "prefix": null,
-      "value": null
-    },
     "tooltipControllerBinding": {
       "class": "Identifier",
       "name": "tooltipControllerBinding",
@@ -37860,9 +37963,9 @@
         }
       ]
     },
-    "tooltipDelay": {
+    "tooltipShowDelay": {
       "class": "Identifier",
-      "name": "tooltipDelay",
+      "name": "tooltipShowDelay",
       "moduleUrl": "asset:angular_components/lib/src/components/material_tooltip/src/tooltip_source.dart",
       "prefix": null,
       "value": null

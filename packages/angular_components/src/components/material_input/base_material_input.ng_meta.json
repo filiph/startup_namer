@@ -11,26 +11,6 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../mixins/focusable_mixin.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/angular/properties/properties.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/disposer/disposer.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/angular2.dart",
         "5": false
       },
@@ -47,6 +27,22 @@
         "5": false
       },
       {
+        "1": "../../utils/angular/properties/properties.dart",
+        "5": false
+      },
+      {
+        "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../mixins/focusable_mixin.dart",
+        "5": false
+      },
+      {
         "1": "deferred_validator.dart",
         "5": false
       }
@@ -54,32 +50,28 @@
     "6": "base_material_input.dart",
     "7": [
       {
-        "1": "../focus/focus.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../mixins/focusable_mixin.template.dart",
+        "1": "../../utils/angular/properties/properties.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/angular/properties/properties.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../focus/focus.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../utils/disposer/disposer.template.dart",
+        "1": "../mixins/focusable_mixin.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
-        "4": "i5"
-      },
-      {
         "1": "deferred_validator.template.dart",
-        "4": "i6"
+        "4": "i5"
       }
     ]
   },

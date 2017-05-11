@@ -11,15 +11,15 @@
         "5": false
       },
       {
+        "1": "../../../portal/portal.dart",
+        "5": false
+      },
+      {
         "1": "../overlay_ref.dart",
         "5": false
       },
       {
         "1": "../overlay_state.dart",
-        "5": false
-      },
-      {
-        "1": "../../../portal/portal.dart",
         "5": false
       }
     ],

@@ -11,6 +11,10 @@
         "5": false
       },
       {
+        "1": "../../utils/async/async.dart",
+        "5": false
+      },
+      {
         "1": "../button_decorator/button_decorator.dart",
         "5": false
       },
@@ -24,10 +28,6 @@
       },
       {
         "1": "../mixins/button_wrapper.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
         "5": false
       }
     ],
@@ -57,23 +57,23 @@
         "4": "i0"
       },
       {
-        "1": "../button_decorator/button_decorator.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "../focus/keyboard_only_focus_indicator.template.dart",
+        "1": "../button_decorator/button_decorator.template.dart",
         "4": "i2"
       },
       {
-        "1": "../glyph/glyph.template.dart",
+        "1": "../focus/keyboard_only_focus_indicator.template.dart",
         "4": "i3"
       },
       {
-        "1": "../mixins/button_wrapper.template.dart",
+        "1": "../glyph/glyph.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../mixins/button_wrapper.template.dart",
         "4": "i5"
       }
     ]

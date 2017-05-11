@@ -21,6 +21,13 @@
       "prefix": null,
       "value": null
     },
+    "DebouncedNullaryFunction": {
+      "class": "Identifier",
+      "name": "DebouncedNullaryFunction",
+      "moduleUrl": "asset:angular_components/lib/src/utils/rate_limit_utils/rate_limit_utils.dart",
+      "prefix": null,
+      "value": null
+    },
     "RateLimitStrategy": {
       "class": "Identifier",
       "name": "RateLimitStrategy",
@@ -45,6 +52,13 @@
     "debounce": {
       "class": "Identifier",
       "name": "debounce",
+      "moduleUrl": "asset:angular_components/lib/src/utils/rate_limit_utils/rate_limit_utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "debounceNullary": {
+      "class": "Identifier",
+      "name": "debounceNullary",
       "moduleUrl": "asset:angular_components/lib/src/utils/rate_limit_utils/rate_limit_utils.dart",
       "prefix": null,
       "value": null

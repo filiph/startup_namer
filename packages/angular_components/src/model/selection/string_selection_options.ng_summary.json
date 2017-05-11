@@ -3,15 +3,7 @@
     "1": "angular_components.model.selection.string_selection_options",
     "3": [
       {
-        "1": "./select.dart",
-        "5": false
-      },
-      {
-        "1": "./selection_options.dart",
-        "5": false
-      },
-      {
-        "1": "../ui/has_renderer.dart",
+        "1": "package:meta/meta.dart",
         "5": false
       },
       {
@@ -19,7 +11,15 @@
         "5": false
       },
       {
-        "1": "package:meta/meta.dart",
+        "1": "../ui/has_renderer.dart",
+        "5": false
+      },
+      {
+        "1": "./select.dart",
+        "5": false
+      },
+      {
+        "1": "./selection_options.dart",
         "5": false
       }
     ],

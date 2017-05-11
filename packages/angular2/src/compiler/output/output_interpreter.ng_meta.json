@@ -93,6 +93,11 @@
         "1": "output_ast.dart",
         "4": "o",
         "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/app_view_utils.dart",
+        "4": "appviewutils",
+        "5": false
       }
     ],
     "6": "output_interpreter.dart",

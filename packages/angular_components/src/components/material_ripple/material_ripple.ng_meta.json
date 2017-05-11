@@ -19,16 +19,20 @@
         "5": false
       },
       {
-        "1": "../../utils/color/material.dart",
-        "2": [
-          "rippleOpacity"
-        ],
+        "1": "../../utils/browser/events/events.dart",
         "5": false
       },
       {
         "1": "../../utils/browser/feature_detector/feature_detector.dart",
         "2": [
           "supportsAnimationApi"
+        ],
+        "5": false
+      },
+      {
+        "1": "../../utils/color/material.dart",
+        "2": [
+          "rippleOpacity"
         ],
         "5": false
       }
@@ -58,12 +62,16 @@
         "4": "i1"
       },
       {
-        "1": "../../utils/color/material.template.dart",
+        "1": "../../utils/browser/events/events.template.dart",
         "4": "i2"
       },
       {
         "1": "../../utils/browser/feature_detector/feature_detector.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "../../utils/color/material.template.dart",
+        "4": "i4"
       }
     ]
   },

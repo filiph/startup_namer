@@ -89,6 +89,13 @@
       "prefix": null,
       "value": null
     },
+    "_isDeferred": {
+      "class": "Identifier",
+      "name": "_isDeferred",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/ng_deps_visitor.dart",
+      "prefix": null,
+      "value": null
+    },
     "resolveNgDepsFor": {
       "class": "Identifier",
       "name": "resolveNgDepsFor",

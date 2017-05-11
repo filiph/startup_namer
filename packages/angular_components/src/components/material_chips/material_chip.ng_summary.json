@@ -11,18 +11,6 @@
         "5": false
       },
       {
-        "1": "../button_decorator/button_decorator.dart",
-        "5": false
-      },
-      {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../glyph/glyph.dart",
-        "5": false
-      },
-      {
         "1": "../../model/selection/selection_model.dart",
         "5": false
       },
@@ -36,6 +24,18 @@
       },
       {
         "1": "../../utils/id_generator/id_generator.dart",
+        "5": false
+      },
+      {
+        "1": "../button_decorator/button_decorator.dart",
+        "5": false
+      },
+      {
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../glyph/glyph.dart",
         "5": false
       }
     ],

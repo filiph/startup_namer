@@ -15,6 +15,18 @@
         "5": false
       },
       {
+        "1": "../../../model/action/async_action.dart",
+        "5": false
+      },
+      {
+        "1": "../../../model/ui/toggle.dart",
+        "5": false
+      },
+      {
+        "1": "../../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
         "1": "../../enums/alignment.dart",
         "5": false
       },
@@ -27,27 +39,15 @@
         "5": false
       },
       {
+        "1": "../../portal/portal.dart",
+        "5": false
+      },
+      {
         "1": "./popup_event.dart",
         "5": false
       },
       {
         "1": "./popup_state.dart",
-        "5": false
-      },
-      {
-        "1": "../../portal/portal.dart",
-        "5": false
-      },
-      {
-        "1": "../../../model/action/async_action.dart",
-        "5": false
-      },
-      {
-        "1": "../../../model/ui/toggle.dart",
-        "5": false
-      },
-      {
-        "1": "../../../utils/disposer/disposer.dart",
         "5": false
       }
     ],

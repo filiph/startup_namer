@@ -11,38 +11,38 @@
         "5": false
       },
       {
-        "1": "../../enums/alignment.dart",
-        "5": false
-      },
-      {
-        "1": "../../popup/popup.dart",
-        "5": false
-      },
-      {
         "1": "../../../utils/angular/properties/properties.dart",
         "5": false
       },
       {
         "1": "../../../utils/async/async.dart",
         "5": false
+      },
+      {
+        "1": "../../enums/alignment.dart",
+        "5": false
+      },
+      {
+        "1": "../../popup/popup.dart",
+        "5": false
       }
     ],
     "6": "base.dart",
     "7": [
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "../../../utils/angular/properties/properties.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../popup/popup.template.dart",
+        "1": "../../../utils/async/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../utils/angular/properties/properties.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../../utils/async/async.template.dart",
+        "1": "../../popup/popup.template.dart",
         "4": "i3"
       }
     ]

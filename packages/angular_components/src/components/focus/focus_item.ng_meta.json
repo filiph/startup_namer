@@ -18,11 +18,11 @@
         "5": false
       },
       {
-        "1": "./focus.dart",
+        "1": "../../utils/async/async.dart",
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
+        "1": "./focus.dart",
         "5": false
       }
     ],
@@ -54,11 +54,11 @@
         "4": "i0"
       },
       {
-        "1": "./focus.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "./focus.template.dart",
         "4": "i2"
       }
     ]

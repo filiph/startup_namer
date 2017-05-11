@@ -156,6 +156,20 @@
       "prefix": null,
       "value": null
     },
+    "createAndAppend": {
+      "class": "Identifier",
+      "name": "createAndAppend",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/app_view.dart",
+      "prefix": null,
+      "value": null
+    },
+    "createAndAppendToShadowRoot": {
+      "class": "Identifier",
+      "name": "createAndAppendToShadowRoot",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/app_view.dart",
+      "prefix": null,
+      "value": null
+    },
     "moveNodesAfterSibling": {
       "class": "Identifier",
       "name": "moveNodesAfterSibling",

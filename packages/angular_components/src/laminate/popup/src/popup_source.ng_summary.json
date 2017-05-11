@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../../enums/alignment.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../../enums/alignment.dart",
         "5": false
       }
     ],

@@ -7,18 +7,6 @@
         "5": false
       },
       {
-        "1": "../../content/deferred_content.dart",
-        "5": false
-      },
-      {
-        "1": "../../material_popup/material_popup.dart",
-        "5": false
-      },
-      {
-        "1": "../module.dart",
-        "5": false
-      },
-      {
         "1": "../../../laminate/enums/alignment.dart",
         "5": false
       },
@@ -30,7 +18,15 @@
         "5": false
       },
       {
-        "1": "../../../utils/angular/properties/properties.dart",
+        "1": "../../content/deferred_content.dart",
+        "5": false
+      },
+      {
+        "1": "../../material_popup/material_popup.dart",
+        "5": false
+      },
+      {
+        "1": "../module.dart",
         "5": false
       },
       {
@@ -78,36 +74,32 @@
         "4": "i0"
       },
       {
-        "1": "../../content/deferred_content.template.dart",
+        "1": "../../../laminate/enums/alignment.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../material_popup/material_popup.template.dart",
+        "1": "../../../laminate/popup/popup.template.dart",
         "4": "i2"
       },
       {
-        "1": "../module.template.dart",
+        "1": "../../content/deferred_content.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../../laminate/enums/alignment.template.dart",
+        "1": "../../material_popup/material_popup.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../../laminate/popup/popup.template.dart",
+        "1": "../module.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../../utils/angular/properties/properties.template.dart",
+        "1": "tooltip_controller.template.dart",
         "4": "i6"
       },
       {
-        "1": "tooltip_controller.template.dart",
-        "4": "i7"
-      },
-      {
         "1": "tooltip_target.template.dart",
-        "4": "i8"
+        "4": "i7"
       }
     ]
   },
@@ -170,7 +162,6 @@
       "changeDetection": 4,
       "inputs": {
         "positions": "positions",
-        "twoLine": "twoLine",
         "text": "text",
         "tooltipRef": "for"
       },
@@ -186,7 +177,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "        <material-popup *ngIf=\"popupSource != null\"\n                        ink\n                        autoDismiss=\"false\"\n                        enforceSpaceConstraints\n                        matchSourceWidth=\"false\"\n                        matchMinSourceWidth=\"false\"\n                        shadowCssClass=\"aacmtit-ink-tooltip-shadow\"\n                        trackLayoutChanges\n                        [preferredPositions]=\"positions\"\n                        [source]=\"popupSource\"\n                        [visible]=\"showPopup\">\n          <div *deferredContent\n               [class.two-line]=\"twoLine\"\n               class=\"ink-container\">\n            <span>{{text}}<ng-content></ng-content></span>\n          </div>\n        </material-popup>",
+        "template": "        <material-popup *ngIf=\"popupSource != null\"\n                        ink\n                        autoDismiss=\"false\"\n                        enforceSpaceConstraints\n                        matchSourceWidth=\"false\"\n                        matchMinSourceWidth=\"false\"\n                        shadowCssClass=\"aacmtit-ink-tooltip-shadow\"\n                        trackLayoutChanges\n                        [preferredPositions]=\"positions\"\n                        [source]=\"popupSource\"\n                        [visible]=\"showPopup\">\n          <div *deferredContent class=\"ink-container\">\n            {{text}}<ng-content></ng-content>\n          </div>\n        </material-popup>",
         "templateUrl": "asset:angular_components/lib/src/components/material_tooltip/src/ink_tooltip.dart",
         "styles": [],
         "styleUrls": [

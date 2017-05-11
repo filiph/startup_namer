@@ -11,6 +11,10 @@
         "5": false
       },
       {
+        "1": "../../../utils/async/async.dart",
+        "5": false
+      },
+      {
         "1": "../../enums/alignment.dart",
         "5": false
       },
@@ -21,28 +25,24 @@
       {
         "1": "../../enums/visibility.dart",
         "5": false
-      },
-      {
-        "1": "../../../utils/async/async.dart",
-        "5": false
       }
     ],
     "6": "overlay_state.dart",
     "7": [
       {
-        "1": "../../enums/alignment.template.dart",
+        "1": "../../../utils/async/async.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../enums/position.template.dart",
+        "1": "../../enums/alignment.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../enums/visibility.template.dart",
+        "1": "../../enums/position.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../../utils/async/async.template.dart",
+        "1": "../../enums/visibility.template.dart",
         "4": "i3"
       }
     ]

@@ -15,26 +15,6 @@
         "5": false
       },
       {
-        "1": "src/overlay_dom_service.dart",
-        "5": false
-      },
-      {
-        "1": "src/overlay_service.dart",
-        "5": false
-      },
-      {
-        "1": "src/render/overlay_dom_render_service.dart",
-        "5": false
-      },
-      {
-        "1": "src/render/overlay_style_config.dart",
-        "5": false
-      },
-      {
-        "1": "../ruler/dom_ruler.dart",
-        "5": false
-      },
-      {
         "1": "../../utils/angular/imperative_view/imperative_view.dart",
         "5": false
       },
@@ -48,6 +28,26 @@
       },
       {
         "1": "../../utils/browser/window/module.dart",
+        "5": false
+      },
+      {
+        "1": "../ruler/dom_ruler.dart",
+        "5": false
+      },
+      {
+        "1": "src/overlay_dom_service.dart",
+        "5": false
+      },
+      {
+        "1": "src/overlay_service.dart",
+        "5": false
+      },
+      {
+        "1": "src/render/overlay_dom_render_service.dart",
+        "5": false
+      },
+      {
+        "1": "src/render/overlay_style_config.dart",
         "5": false
       }
     ],

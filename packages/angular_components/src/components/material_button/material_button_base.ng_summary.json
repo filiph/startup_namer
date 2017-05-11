@@ -11,7 +11,7 @@
         "5": false
       },
       {
-        "1": "../button_decorator/button_decorator.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -19,7 +19,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../button_decorator/button_decorator.dart",
         "5": false
       }
     ],

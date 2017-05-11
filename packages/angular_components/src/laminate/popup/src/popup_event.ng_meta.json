@@ -11,22 +11,22 @@
         "5": false
       },
       {
-        "1": "./popup_ref.dart",
+        "1": "../../../model/action/async_action.dart",
         "5": false
       },
       {
-        "1": "../../../model/action/async_action.dart",
+        "1": "./popup_ref.dart",
         "5": false
       }
     ],
     "6": "popup_event.dart",
     "7": [
       {
-        "1": "./popup_ref.template.dart",
+        "1": "../../../model/action/async_action.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../../model/action/async_action.template.dart",
+        "1": "./popup_ref.template.dart",
         "4": "i1"
       }
     ]

@@ -15,10 +15,6 @@
         "5": false
       },
       {
-        "1": "./tooltip_controller.dart",
-        "5": false
-      },
-      {
         "1": "../../../laminate/components/popup/popup.dart",
         "2": [
           "PopupSourceDirective"
@@ -41,17 +37,17 @@
         "5": false
       },
       {
-        "1": "../../../utils/async/async.dart",
+        "1": "../../../utils/browser/events/events.dart",
         "5": false
       },
       {
-        "1": "../../../utils/browser/events/events.dart",
+        "1": "./tooltip_controller.dart",
         "5": false
       },
       {
         "1": "tooltip_source.dart",
         "2": [
-          "tooltipDelay"
+          "tooltipShowDelay"
         ],
         "5": false
       }
@@ -115,36 +111,32 @@
         "4": "i0"
       },
       {
-        "1": "./tooltip_controller.template.dart",
+        "1": "../../../laminate/components/popup/popup.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../../laminate/components/popup/popup.template.dart",
+        "1": "../../../laminate/popup/popup.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../../laminate/popup/popup.template.dart",
+        "1": "../../../model/action/delayed_action.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../../model/action/delayed_action.template.dart",
+        "1": "../../../utils/angular/reference/reference.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../../utils/angular/reference/reference.template.dart",
+        "1": "../../../utils/browser/events/events.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../../utils/async/async.template.dart",
+        "1": "./tooltip_controller.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../../utils/browser/events/events.template.dart",
-        "4": "i7"
-      },
-      {
         "1": "tooltip_source.template.dart",
-        "4": "i8"
+        "4": "i7"
       }
     ]
   },
@@ -369,9 +361,9 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "keyup": "openTooltipWithDelay()",
-        "click": "closeTooltip()",
-        "blur": "closeTooltip()",
+        "keyup": "showTooltipWithDelay()",
+        "click": "hideTooltip()",
+        "blur": "hideTooltip()",
         "mouseover": "onMouseOver()",
         "mouseleave": "onMouseLeave()"
       },

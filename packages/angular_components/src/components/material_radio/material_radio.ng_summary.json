@@ -11,19 +11,7 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
-        "5": false
-      },
-      {
-        "1": "../glyph/glyph.dart",
-        "5": false
-      },
-      {
-        "1": "./material_radio_group.dart",
-        "5": false
-      },
-      {
-        "1": "../material_ripple/material_ripple.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -43,7 +31,19 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../focus/focus.dart",
+        "5": false
+      },
+      {
+        "1": "../glyph/glyph.dart",
+        "5": false
+      },
+      {
+        "1": "../material_ripple/material_ripple.dart",
+        "5": false
+      },
+      {
+        "1": "./material_radio_group.dart",
         "5": false
       }
     ],

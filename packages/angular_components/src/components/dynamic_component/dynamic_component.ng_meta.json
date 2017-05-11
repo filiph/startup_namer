@@ -7,15 +7,15 @@
         "5": false
       },
       {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
         "1": "../../model/ui/has_renderer.dart",
         "5": false
       },
       {
         "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
         "5": false
       }
     ],
@@ -40,15 +40,15 @@
     "6": "dynamic_component.dart",
     "7": [
       {
-        "1": "../../model/ui/has_renderer.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../../model/ui/has_renderer.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i2"
       }
     ]

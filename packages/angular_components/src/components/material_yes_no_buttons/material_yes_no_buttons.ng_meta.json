@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "../material_button/material_button.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "../material_spinner/material_spinner.dart",
+        "1": "package:intl/intl.dart",
         "5": false
       },
       {
@@ -27,11 +27,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../material_button/material_button.dart",
         "5": false
       },
       {
-        "1": "package:intl/intl.dart",
+        "1": "../material_spinner/material_spinner.dart",
         "5": false
       }
     ],
@@ -130,23 +130,23 @@
     "6": "material_yes_no_buttons.dart",
     "7": [
       {
-        "1": "../material_button/material_button.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "../material_spinner/material_spinner.template.dart",
+        "1": "../../utils/angular/properties/properties.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/angular/properties/properties.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../material_button/material_button.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../material_spinner/material_spinner.template.dart",
         "4": "i4"
       }
     ]
@@ -235,7 +235,9 @@
         ]
       },
       "changeDetection": 6,
-      "inputs": {},
+      "inputs": {
+        "enterAccepts": "enterAccepts"
+      },
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {},

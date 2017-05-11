@@ -7,22 +7,22 @@
         "5": false
       },
       {
-        "1": "../focus/focus.dart",
+        "1": "../../utils/async/async.dart",
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
+        "1": "../focus/focus.dart",
         "5": false
       }
     ],
     "6": "focusable_mixin.dart",
     "7": [
       {
-        "1": "../focus/focus.template.dart",
+        "1": "../../utils/async/async.template.dart",
         "4": "i0"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../focus/focus.template.dart",
         "4": "i1"
       }
     ]

@@ -22,15 +22,15 @@
         "5": false
       },
       {
+        "1": "../../disposer/disposer.dart",
+        "5": false
+      },
+      {
         "1": "./dom_service.dart",
         "5": false
       },
       {
         "1": "./dom_service_webdriver_testability.dart",
-        "5": false
-      },
-      {
-        "1": "../../disposer/disposer.dart",
         "5": false
       }
     ],
@@ -91,15 +91,15 @@
         "4": "i2"
       },
       {
-        "1": "./dom_service.template.dart",
+        "1": "../../disposer/disposer.template.dart",
         "4": "i3"
       },
       {
-        "1": "./dom_service_webdriver_testability.template.dart",
+        "1": "./dom_service.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../disposer/disposer.template.dart",
+        "1": "./dom_service_webdriver_testability.template.dart",
         "4": "i5"
       }
     ]

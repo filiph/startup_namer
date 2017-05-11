@@ -15,15 +15,15 @@
         "5": false
       },
       {
+        "1": "../../../utils/angular/properties/properties.dart",
+        "5": false
+      },
+      {
         "1": "../../enums/alignment.dart",
         "5": false
       },
       {
         "1": "./popup_source.dart",
-        "5": false
-      },
-      {
-        "1": "../../../utils/angular/properties/properties.dart",
         "5": false
       }
     ],

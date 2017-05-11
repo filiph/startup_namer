@@ -11,7 +11,7 @@
         "5": false
       },
       {
-        "1": "../../annotations/rtl_annotation.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
@@ -23,7 +23,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "../../annotations/rtl_annotation.dart",
         "5": false
       }
     ],
@@ -57,7 +57,7 @@
     "6": "scorecard_bar.dart",
     "7": [
       {
-        "1": "../../annotations/rtl_annotation.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
@@ -69,7 +69,7 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "../../annotations/rtl_annotation.template.dart",
         "4": "i3"
       }
     ]

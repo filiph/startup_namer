@@ -3,11 +3,11 @@
     "1": "angular_components.laminate.popup.src.popup_size_provider_directive",
     "3": [
       {
-        "1": "./popup_size_provider.dart",
+        "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "./popup_size_provider.dart",
         "5": false
       }
     ],
@@ -44,11 +44,11 @@
     "6": "popup_size_provider_directive.dart",
     "7": [
       {
-        "1": "./popup_size_provider.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "./popup_size_provider.template.dart",
         "4": "i1"
       }
     ]

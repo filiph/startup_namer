@@ -7,39 +7,31 @@
         "5": false
       },
       {
+        "1": "../../utils/disposer/disposer.dart",
+        "5": false
+      },
+      {
         "1": "../collection/labeled_list.dart",
         "5": false
       },
       {
         "1": "../observable/observable.dart",
         "5": false
-      },
-      {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "../../utils/disposer/disposer.dart",
-        "5": false
       }
     ],
     "6": "selection_options.dart",
     "7": [
       {
-        "1": "../collection/labeled_list.template.dart",
+        "1": "../../utils/disposer/disposer.template.dart",
         "4": "i0"
       },
       {
-        "1": "../observable/observable.template.dart",
+        "1": "../collection/labeled_list.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../utils/async/async.template.dart",
+        "1": "../observable/observable.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "../../utils/disposer/disposer.template.dart",
-        "4": "i3"
       }
     ]
   },

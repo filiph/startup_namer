@@ -7,6 +7,10 @@
         "5": false
       },
       {
+        "1": "../../utils/async/async.dart",
+        "5": false
+      },
+      {
         "1": "../annotations/rtl_annotation.dart",
         "5": false
       },
@@ -19,11 +23,7 @@
         "5": false
       },
       {
-        "1": "../../utils/async/async.dart",
-        "5": false
-      },
-      {
-        "1": "src/tab_button.dart",
+        "1": "tab_button.dart",
         "5": false
       },
       {
@@ -140,14 +140,12 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {
-        "aria-multiselectable": "false",
-        "class": "themeable",
-        "role": "tablist"
+        "class": "themeable"
       },
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 0,
-        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"navi-bar\"\n     focusList>\n  <div class=\"tab-indicator\"\n       [style.transform]=\"tabIndicatorTransform\">\n  </div>\n  <tab-button *ngFor=\"let tabLabel of tabLabels; let idx = index\"\n              (trigger)=\"switchTo(idx)\"\n              [id]=\"tabId(idx)\"\n              class=\"tab-button\"\n              [active]=\"activeTabIndex == idx\"\n              [attr.aria-selected]=\"activeStr(idx)\"\n              [label]=\"tabLabel\"\n              focusItem>\n  </tab-button>\n</div>\n",
+        "template": "<!--\n Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file\n for details. All rights reserved. Use of this source code is governed by a\n BSD-style license that can be found in the LICENSE file.\n-->\n<div class=\"navi-bar\" focusList role=\"tablist\">\n  <div class=\"tab-indicator\" [style.transform]=\"tabIndicatorTransform\"></div>\n  <tab-button *ngFor=\"let tabLabel of tabLabels; let idx = index\"\n              (trigger)=\"switchTo(idx)\"\n              [id]=\"tabId(idx)\"\n              class=\"tab-button\"\n              [active]=\"activeTabIndex == idx\"\n              [attr.aria-selected]=\"activeStr(idx)\"\n              [label]=\"tabLabel\"\n              focusItem\n              role=\"tab\">\n  </tab-button>\n</div>\n",
         "templateUrl": "asset:angular_components/lib/src/components/material_tab/fixed_material_tab_strip.html",
         "styles": [],
         "styleUrls": [
