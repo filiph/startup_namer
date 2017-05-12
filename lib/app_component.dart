@@ -16,15 +16,8 @@ import 'package:english_words/english_words.dart';
   directives: const [materialDirectives],
   providers: const [materialProviders],
 )
-class AppComponent implements OnInit {
-  var names = <WordPair>[];
+class AppComponent {
+  WordPair name = generateWordPairs().first;
 
-  void generateNames() {
-    names = generateWordPairs().take(5).toList();
-  }
-
-  @override
-  void ngOnInit() {
-    generateNames();
-  }
+  AppComponent() { print('name: $name'); }
 }
