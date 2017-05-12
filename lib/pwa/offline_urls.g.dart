@@ -1,7 +1,11 @@
 /// URLs for offline cache.
 final List<String> offlineUrls = [
   './',
+  './images/launcher-icon.png',
+  './images/launcher-icon@2x.png',
+  './images/launcher-icon@4x.png',
   './main.dart.js',
+  './manifest.json',
   './packages/angular_components/src/components/button_decorator/button_decorator.scss.css',
   './packages/angular_components/src/components/focus/focus_trap.html',
   './packages/angular_components/src/components/focus/focus_trap.scss.css',
@@ -291,4 +295,4 @@ final List<String> offlineUrls = [
 ];
 
 /// Last modified timestamp of the files
-final String lastModified = '2017-05-12T21:27:32.000Z';
+final String lastModified = '2017-05-12T22:54:47.000Z';
