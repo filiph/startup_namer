@@ -4,7 +4,8 @@
 
 import 'package:angular2/core.dart';
 import 'package:angular_components/angular_components.dart';
-import 'package:english_words/english_words.dart';
+
+import 'todo_list/todo_list_component.dart';
 
 // AngularDart info: https://webdev.dartlang.org/angular
 // Components info: https://webdev.dartlang.org/components
@@ -13,11 +14,9 @@ import 'package:english_words/english_words.dart';
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: const [materialDirectives],
+  directives: const [materialDirectives, TodoListComponent],
   providers: const [materialProviders],
 )
 class AppComponent {
-  WordPair name = generateWordPairs().first;
-
-  AppComponent() { print('name: $name'); }
+  // Nothing here yet. All logic is in TodoListComponent.
 }
