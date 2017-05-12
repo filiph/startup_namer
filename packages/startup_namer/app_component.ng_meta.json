@@ -13,11 +13,21 @@
       {
         "1": "package:english_words/english_words.dart",
         "5": false
+      },
+      {
+        "1": "package:startup_namer/local_storage_service.dart",
+        "5": false
       }
     ],
     "5": [
       {
         "1": "AppComponent",
+        "5": [
+          {
+            "1": "LocalStorageService",
+            "4": "_localStorageService"
+          }
+        ],
         "6": [
           "OnInit"
         ],
@@ -37,6 +47,10 @@
       {
         "1": "package:angular_components/angular_components.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:startup_namer/local_storage_service.template.dart",
+        "4": "i2"
       }
     ]
   },
@@ -53,7 +67,28 @@
         "prefix": null,
         "isHost": false,
         "value": null,
-        "diDeps": []
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "LocalStorageService",
+                "moduleUrl": "asset:startup_namer/lib/local_storage_service.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
       },
       "changeDetection": 6,
       "inputs": {},
@@ -1282,6 +1317,36 @@
                 "isValue": false
               }
             ]
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "LocalStorageService",
+              "moduleUrl": "asset:startup_namer/lib/local_storage_service.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": []
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "LocalStorageService",
+            "moduleUrl": "asset:startup_namer/lib/local_storage_service.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": []
           },
           "useExisting": null,
           "useValue": null,

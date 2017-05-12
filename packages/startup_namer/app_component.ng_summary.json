@@ -13,11 +13,21 @@
       {
         "1": "package:english_words/english_words.dart",
         "5": false
+      },
+      {
+        "1": "package:startup_namer/local_storage_service.dart",
+        "5": false
       }
     ],
     "5": [
       {
         "1": "AppComponent",
+        "5": [
+          {
+            "1": "LocalStorageService",
+            "4": "_localStorageService"
+          }
+        ],
         "6": [
           "OnInit"
         ],
@@ -43,7 +53,28 @@
         "prefix": null,
         "isHost": false,
         "value": null,
-        "diDeps": []
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "LocalStorageService",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
       },
       "changeDetection": 6,
       "inputs": {},
@@ -69,6 +100,13 @@
         {
           "class": "Identifier",
           "name": "materialProviders",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "LocalStorageService",
           "moduleUrl": null,
           "prefix": null,
           "value": null

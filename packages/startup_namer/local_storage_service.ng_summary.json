@@ -1,0 +1,43 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:english_words/english_words.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "LocalStorageService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ]
+      }
+    ],
+    "6": "local_storage_service.dart"
+  },
+  "type": {
+    "LocalStorageService": {
+      "class": "Type",
+      "name": "LocalStorageService",
+      "moduleUrl": "asset:startup_namer/lib/local_storage_service.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
+}
