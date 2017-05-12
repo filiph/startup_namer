@@ -18,7 +18,6 @@ import 'package:english_words/english_words.dart';
 )
 class AppComponent implements OnInit {
   var names = <WordPair>[];
-  final savedNames = new Set<WordPair>();
 
   void generateNames() {
     names = generateWordPairs().take(5).toList();
@@ -27,21 +26,5 @@ class AppComponent implements OnInit {
   @override
   void ngOnInit() {
     generateNames();
-  }
-
-  void addToSaved(WordPair name) {
-    savedNames.add(name);
-  }
-
-  void removeFromSaved(WordPair name) {
-    savedNames.remove(name);
-  }
-
-  void toggleSavedState(WordPair name) {
-    if (savedNames.contains(name)) {
-      removeFromSaved(name);
-      return;
-    }
-    addToSaved(name);
   }
 }
