@@ -5,11 +5,3 @@
 .first {
   color: #2196F3;
 }
-
-.is-saved {
-  color: #ccc;
-}
-
-.is-saved .first {
-  color: #ddd;
-}
