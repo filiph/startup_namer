@@ -1,10 +1,14 @@
-// Copyright (c) 2017, filiph. All rights reserved. Use of this source code
-// is governed by a BSD-style license that can be found in the LICENSE file.
+// Copyright (c) 2017, the Dart project authors.  Please see the AUTHORS file
+// for details. All rights reserved. Use of this source code is governed by a
+// BSD-style license that can be found in the LICENSE file.
 
 import 'package:angular2/core.dart';
 import 'package:angular_components/angular_components.dart';
 import 'package:english_words/english_words.dart';
 import 'package:startup_namer/local_storage_service.dart';
+
+// AngularDart info: https://webdev.dartlang.org/angular
+// Components info: https://webdev.dartlang.org/components
 
 @Component(
   selector: 'my-app',
@@ -20,14 +24,14 @@ class AppComponent implements OnInit {
 
   AppComponent(this._localStorageService);
 
+  void generateNames() {
+    names = generateWordPairs().take(5).toList();
+  }
+
   @override
   void ngOnInit() {
     generateNames();
     savedNames.addAll(_localStorageService.load());
-  }
-
-  void generateNames() {
-    names = generateWordPairs().take(5).toList();
   }
 
   void addToSaved(WordPair name) {
