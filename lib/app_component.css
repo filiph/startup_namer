@@ -1,0 +1,15 @@
+:host {
+  /* This is equivalent of the 'body' selector of a page. */
+}
+
+.first {
+  color: #2196F3;
+}
+
+.is-saved {
+  color: #ccc;
+}
+
+.is-saved .first {
+  color: #ddd;
+}
