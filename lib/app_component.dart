@@ -31,10 +31,12 @@ class AppComponent implements OnInit {
 
   void addToSaved(WordPair name) {
     savedNames.add(name);
+    print('added $name: $savedNames');
   }
 
   void removeFromSaved(WordPair name) {
     savedNames.remove(name);
+    print('removed $name: $savedNames');
   }
 
   void toggleSavedState(WordPair name) {
