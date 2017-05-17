@@ -22,6 +22,11 @@ class LocalStorageService {
   }
 
   void save(Set<WordPair> words) {
+    if (words.isEmpty) {
+      window.localStorage.remove(_localStorageKey);
+      return;
+    }
+
     var encoded = words
         .map((pair) => "${pair.first}$_wordSeparator${pair.second}")
         .join(_pairSeparator);
