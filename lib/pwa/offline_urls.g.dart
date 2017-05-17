@@ -291,8 +291,10 @@ final List<String> offlineUrls = [
   './packages/intl/src/data/dates/symbols/zu.json',
   './packages/startup_namer/app_component.css',
   './packages/startup_namer/app_component.html',
+  './packages/unittest/coverage_controller.js',
+  './packages/unittest/test_controller.js',
   './styles.css',
 ];
 
 /// Last modified timestamp of the files
-final String lastModified = '2017-05-12T23:45:22.000Z';
+final String lastModified = '2017-05-17T01:16:21.000Z';
